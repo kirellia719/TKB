@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Upload Thời khoá biểu</title>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px;
+      background: #f9f9f9;
+    }
+
+    .container {
+      background: #fff;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 600px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 16px;
+    }
+
+    input[type=file],
+    input[type=password] {
+      margin: 12px 0;
+      padding: 6px;
+      width: 200px;
+    }
+
+    button {
+      padding: 10px 18px;
+      border: none;
+      border-radius: 8px;
+      background: #007bff;
+      color: white;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    .result {
+      margin-top: 20px;
+      text-align: left;
+      background: #f1f1f1;
+      padding: 12px;
+      border-radius: 6px;
+      max-height: 300px;
+      overflow: auto;
+      font-size: 13px;
+      white-space: pre-wrap;
+    }
+
+    #uploadSection {
+      display: none;
+    }
+
+    /* Ẩn upload cho tới khi nhập đúng mật khẩu */
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Admin - Quản lý thời khoá biểu</h2>
+
+    <!-- Form nhập mật khẩu -->
+    <div id="loginSection">
+      <p>Nhập mật khẩu để truy cập:</p>
+      <input type="password" id="adminPass" placeholder="Mật khẩu" />
+      <br />
+      <button id="loginBtn">Đăng nhập</button>
+      <p id="loginMsg" style="color:red"></p>
+    </div>
+
+    <!-- Khu vực upload, ẩn lúc đầu -->
+    <div id="uploadSection">
+      <form id="uploadForm">
+        <input type="file" id="fileInput" accept=".xlsx,.xls" required />
+        <br />
+        <button type="submit">Upload</button>
+      </form>
+      <div id="message"></div>
+      <div id="preview" class="result"></div>
+    </div>
+  </div>
+
+  <script>
+    const BE_URL = `https://tkb-be.vercel.app`
+    const CORRECT_PASSWORD = "123"; // đổi mật khẩu tại đây
+
+    const loginBtn = document.getElementById("loginBtn");
+    const loginMsg = document.getElementById("loginMsg");
+    const loginSection = document.getElementById("loginSection");
+    const uploadSection = document.getElementById("uploadSection");
+
+    loginBtn.addEventListener("click", () => {
+      const pass = document.getElementById("adminPass").value;
+      if (pass === CORRECT_PASSWORD) {
+        loginSection.style.display = "none";
+        uploadSection.style.display = "block";
+      } else {
+        loginMsg.textContent = "Sai mật khẩu!";
+      }
+    });
+
+    // Upload logic
+    const form = document.getElementById("uploadForm");
+    const fileInput = document.getElementById("fileInput");
+
+    form.addEventListener("submit", handleFile);
+
+    function handleFile(evt) {
+      evt.preventDefault();
+      console.log(fileInput);
+
+      const f = fileInput.files[0];
+      console.log(f);
+
+      if (!f) return;
+      const reader = new FileReader();
+      reader.onload = async function (e) {
+        const data = new Uint8Array(e.target.result);
+        const wb = XLSX.read(data, { type: 'array' });
+        const sheet = wb.Sheets[wb.SheetNames[0]];
+        const raw = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: "" });
+
+        const payload = parseScheduleMatrix(raw);
+        const res = await fetch(`${BE_URL}/upload`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        const dataRes = await res.json();
+        console.log(dataRes);
+
+      };
+      reader.readAsArrayBuffer(f);
+    }
+
+    function parseScheduleMatrix(matrix) {
+      schedules = {};
+      classes = [];
+      teacherList = [];
+
+      // tìm hàng chứa chữ "Thứ"
+      let headerRowIndex = -1;
+      for (let i = 0; i < Math.min(10, matrix.length); i++) {
+        const row = matrix[i].map(x => (x || "").toString().trim());
+        if (row.some(cell => /(^thứ$|^thứ\s*\d|^thứ\s)/i.test(cell))) {
+          headerRowIndex = i;
+          break;
+        }
+      }
+      if (headerRowIndex === -1) headerRowIndex = 2;
+
+      // tìm hàng chứa tên lớp
+      let classHeaderRowIndex = headerRowIndex;
+      function countNonEmptyClassCells(r) {
+        if (!matrix[r]) return 0;
+        return matrix[r].slice(3).filter(c => (c || "").toString().trim() !== "").length;
+      }
+      if (countNonEmptyClassCells(classHeaderRowIndex) < 1) {
+        for (let k = headerRowIndex; k <= headerRowIndex + 4 && k < matrix.length; k++) {
+          if (countNonEmptyClassCells(k) >= 1) { classHeaderRowIndex = k; break; }
+        }
+      }
+
+      const headerRow = (matrix[classHeaderRowIndex] || []).slice(3);
+      classes = headerRow.map(x => (x || "").toString().trim()).filter(x => x !== "");
+      if (classes.length === 0) {
+        alert("Không tìm thấy tên lớp trên hàng tiêu đề. Vui lòng kiểm tra file.");
+        return;
+      }
+      classes.forEach(c => schedules[c] = {});
+
+      let dataStart = classHeaderRowIndex + 1;
+      const mat = matrix.map(r => r ? r.slice() : []);
+      let last0 = "", last1 = "", last2 = "";
+      for (let i = dataStart; i < mat.length; i++) {
+        const row = mat[i];
+        for (let j = 0; j < 3; j++) if (row[j] === undefined) row[j] = "";
+        row[0] = row[0] !== "" ? row[0] : last0;
+        row[1] = row[1] !== "" ? row[1] : last1;
+        row[2] = row[2] !== "" ? row[2] : last2;
+        last0 = row[0]; last1 = row[1]; last2 = row[2];
+      }
+
+      function isGlobalHeaderForClasses(row) {
+        const clsCells = (row.slice(3, 3 + classes.length) || []).map(x => (x || "").toString().trim());
+        if (clsCells.length === 0) return false;
+        const allSame = clsCells.every(c => c !== "" && c === clsCells[0]);
+        if (!allSame) return false;
+        if (/hdtn|shdc/i.test(clsCells[0])) return true;
+        return false;
+      }
+
+      for (let i = dataStart; i < mat.length; i++) {
+        const row = mat[i].map(x => (x || "").toString().trim());
+        const classCells = row.slice(3, 3 + classes.length);
+        const hasAnyClassValue = classCells.some(c => c !== "");
+        const hasDay = row[0] && row[0] !== "";
+        if (!hasAnyClassValue && !hasDay) continue;
+        if (isGlobalHeaderForClasses(row)) continue;
+
+        const day = row[0] || "";
+        const session = row[1] || "";
+        const tiet = row[2] || "";
+
+        classes.forEach((cls, idx) => {
+          const colIdx = 3 + idx;
+          const cellText = (mat[i][colIdx] || "").toString().trim();
+          if (!schedules[cls][day]) schedules[cls][day] = {};
+          if (!schedules[cls][day][session]) schedules[cls][day][session] = [];
+
+          let mon = "", gv = "";
+          if (cellText.includes("-")) {
+            const parts = cellText.split("-");
+            mon = parts[0].trim();
+            gv = parts.slice(1).join("-").trim();
+          } else {
+            mon = cellText;
+          }
+
+          schedules[cls][day][session].push({ tiet: String(tiet), mon, gv });
+
+          if (gv && !teacherList.includes(gv)) {
+            teacherList.push(gv);
+          }
+        });
+      }
+      return schedules;
+    }
+  </script>
+</body>
+
+</html>
