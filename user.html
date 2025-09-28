@@ -107,7 +107,7 @@
     }
 
     th {
-      background: #07ad2b;
+      background: #3e90e7;
       color: white;
       font-weight: bold;
       font-size: 15px;
@@ -145,7 +145,6 @@
       }
     }
 
-    /* Responsive */
     @media (max-width: 768px) {
       body {
         padding: 10px;
@@ -196,7 +195,6 @@
       }
     }
   </style>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 
 <body>
@@ -223,9 +221,6 @@
       <div id="teacherResult"></div>
     </div>
   </div>
-  <!-- Nhúng html2canvas -->
-
-
 
   <script>
     let schedules = {};   // JSON từ BE
@@ -285,25 +280,19 @@
       }
     }
 
-
-    // --- Xuất ảnh ---
-
     // --- Hiển thị theo lớp ---
     function showScheduleByClass() {
       const cls = document.getElementById("classSelect").value;
       const result = document.getElementById("classResult");
-      const btn = document.getElementById("downloadClassBtn");
-
       if (!cls || !schedules[cls]) {
         result.innerHTML = "<p>Chưa có dữ liệu cho lớp này.</p>";
-        btn.style.display = "none";
         return;
       }
 
       const sch = schedules[cls];
       const weekdays = ["Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6"];
 
-      // tìm số tiết max
+      // Tìm số tiết lớn nhất
       let maxTiet = 0;
       weekdays.forEach(day => {
         if (sch[day]) {
@@ -316,7 +305,7 @@
         }
       });
 
-      let html = `<div id="classSchedule"><h3>Thời khoá biểu lớp ${cls}</h3>`;
+      let html = `<h3>Thời khoá biểu lớp ${cls}</h3>`;
       html += `<table><thead><tr><th>Tiết</th>`;
       weekdays.forEach(d => html += `<th>${d}</th>`);
       html += `</tr></thead><tbody>`;
@@ -330,36 +319,29 @@
             Object.keys(sch[day]).forEach(sess => {
               const found = sch[day][sess].find(x => x.tiet == t);
               // if (found) cell = found.gv ? `${found.mon} (${found.gv})` : found.mon;
-              if (found) cell = found.gv ? `${found.mon}` : found.mon;
+              if (found) cell = found.gv ? `${found.mon} (${found.gv})` : found.mon;
             });
           }
           html += `<td>${cell}</td>`;
         });
         html += `</tr>`;
       }
-      html += `</tbody></table></div>`;
+      html += `</tbody></table>`;
       result.innerHTML = html;
-
-      btn.style.display = "inline-block";
-      btn.onclick = () => exportImage("classSchedule", `TKB_${cls}`);
     }
 
     // --- Hiển thị theo giáo viên ---
     function showScheduleByTeacher() {
       const teacher = document.getElementById("teacherSelect").value;
       const result = document.getElementById("teacherResult");
-      const btn = document.getElementById("downloadTeacherBtn");
-
       if (!teacher) {
         result.innerHTML = "<p>Chưa có dữ liệu cho giáo viên này.</p>";
-        btn.style.display = "none";
         return;
       }
 
       let teacherSchedule = {};
       const classes = Object.keys(schedules);
       let maxTiet = 0;
-      let subjectsSet = new Set();
 
       classes.forEach(cls => {
         const sch = schedules[cls];
@@ -373,17 +355,14 @@
 
                 const t = parseInt(item.tiet, 10);
                 if (!isNaN(t) && t > maxTiet) maxTiet = t;
-                if (item.mon && item.mon.trim()) subjectsSet.add(item.mon.trim());
               }
             });
           });
         });
       });
 
-      const onlyOneSubject = subjectsSet.size === 1;
       const weekdays = ["Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6"];
-
-      let html = `<div id="teacherSchedule"><h3>Thời khoá biểu của GV ${teacher}</h3>`;
+      let html = `<h3>Thời khoá biểu của GV ${teacher}</h3>`;
       html += `<table><thead><tr><th>Tiết</th>`;
       weekdays.forEach(d => html += `<th>${d}</th>`);
       html += `</tr></thead><tbody>`;
@@ -396,20 +375,15 @@
           if (teacherSchedule[day]) {
             Object.keys(teacherSchedule[day]).forEach(sess => {
               const found = teacherSchedule[day][sess].find(x => x.tiet == t);
-              if (found) {
-                cell = onlyOneSubject ? `${found.cls}` : `${found.cls} (${found.mon})`;
-              }
+              if (found) cell = `${found.cls} (${found.mon})`;
             });
           }
           html += `<td>${cell}</td>`;
         });
         html += `</tr>`;
       }
-      html += `</tbody></table></div>`;
+      html += `</tbody></table>`;
       result.innerHTML = html;
-
-      btn.style.display = "inline-block";
-      btn.onclick = () => exportImage("teacherSchedule", `TKB_${teacher}`);
     }
 
     loadSchedule();
