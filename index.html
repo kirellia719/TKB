@@ -171,7 +171,7 @@
       <div id="teacherResult"></div>
     </div>
   </div>
-
+  <script src="data.js"></script>
   <script>
     let schedules = {};   // JSON từ BE
     let teachers = new Set();
@@ -190,8 +190,8 @@
     // --- Lấy dữ liệu từ BE ---
     async function loadSchedule() {
       try {
-        const res = await fetch(`${BE_URL}/schedule`);
-        const data = await res.json();
+        // const res = await fetch(`${BE_URL}/schedule`);
+        // const data = await res.json();
         schedules = data;
 
         // Lấy danh sách lớp
