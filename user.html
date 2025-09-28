@@ -292,6 +292,7 @@
       let teacherSchedule = {};
       const classes = Object.keys(schedules);
       let maxTiet = 0;
+      let subjectsSet = new Set(); // lưu các môn mà GV này dạy
 
       classes.forEach(cls => {
         const sch = schedules[cls];
@@ -305,11 +306,17 @@
 
                 const t = parseInt(item.tiet, 10);
                 if (!isNaN(t) && t > maxTiet) maxTiet = t;
+
+                if (item.mon && item.mon.trim()) {
+                  subjectsSet.add(item.mon.trim());
+                }
               }
             });
           });
         });
       });
+
+      const onlyOneSubject = subjectsSet.size === 1;
 
       const weekdays = ["Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6"];
       let html = `<h3>Thời khoá biểu của GV ${teacher}</h3>`;
@@ -325,7 +332,9 @@
           if (teacherSchedule[day]) {
             Object.keys(teacherSchedule[day]).forEach(sess => {
               const found = teacherSchedule[day][sess].find(x => x.tiet == t);
-              if (found) cell = `${found.cls} (${found.mon})`;
+              if (found) {
+                cell = onlyOneSubject ? `${found.cls}` : `${found.cls} (${found.mon})`;
+              }
             });
           }
           html += `<td>${cell}</td>`;
@@ -335,7 +344,6 @@
       html += `</tbody></table>`;
       result.innerHTML = html;
     }
-
     loadSchedule();
   </script>
 </body>
