@@ -3,35 +3,17 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Tra cứu Thời khoá biểu</title>
+  <title>Thời khoá biểu</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="container">
-    <h2>Tra cứu Thời khoá biểu</h2>
-
-    <!-- Tabs -->
-    <div class="tabs">
-      <div class="tab active" data-target="teacherTab">Theo giáo viên</div>
-      <div class="tab" data-target="classTab">Theo lớp</div>
-    </div>
-
-    <!-- Tab 1 -->
-    <div id="teacherTab" class="tab-content active">
-      <label>Chọn giáo viên: </label>
-      <select id="teacherSelect"></select>
-      <div id="teacherResult"></div>
-    </div>
-
-
-    <!-- Tab 2 -->
-    <div id="classTab" class="tab-content ">
-      <label>Chọn lớp: </label>
-      <select id="classSelect"></select>
-      <div id="classResult"></div>
-    </div>
+    <!-- Khu vực hiển thị kết quả tùy theo query -->
+    <div id="teacherResult"></div>
+    <div id="classResult"></div>
   </div>
+
   <script src="data.js"></script>
   <script src="script.js"></script>
 </body>
