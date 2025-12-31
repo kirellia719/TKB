@@ -1,4 +1,4 @@
-let data = {
+const data = {
   "6A1": {
     "Thứ 2": {
       "Sáng": [
@@ -9047,4 +9047,4 @@ let data = {
       ]
     }
   }
-}
+};

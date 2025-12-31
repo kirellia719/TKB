@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Thời khoá biểu</title>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- LOGIN -->
+  <div class="login-wrapper" id="loginWrapper">
+    <div class="login-card">
+      <div class="login-icon">🔐</div>
+      <h2>Admin Login</h2>
+      <p class="login-desc">Vui lòng nhập mật khẩu</p>
+      <input type="password" id="pass" placeholder="Mật khẩu">
+      <button id="loginBtn">Đăng nhập</button>
+      <div class="login-error" id="loginMsg"></div>
+    </div>
+  </div>
+
+  <!-- ADMIN -->
+  <div class="container hidden" id="adminBox">
+
+    <h2>Quản lý thời khoá biểu</h2>
+
+    <!-- MODULE BUTTON -->
+    <div class="btn-group" style="justify-content:center">
+      <button id="btnView">📘 Xem thời khoá biểu</button>
+      <button id="btnUpload">⬆️ Upload & tạo JSON</button>
+    </div>
+
+    <!-- MODULE VIEW -->
+    <section id="viewModule" class="hidden">
+      <h3>Xem thời khoá biểu</h3>
+
+      <div class="tabs">
+        <div class="tab active" data-tab="class">Theo lớp</div>
+        <div class="tab" data-tab="teacher">Theo giáo viên</div>
+      </div>
+
+      <select id="classSelect"></select>
+      <select id="teacherSelect" class="hidden"></select>
+
+      <div id="viewResult"></div>
+    </section>
+
+    <!-- MODULE UPLOAD -->
+    <section id="uploadModule" class="hidden">
+      <h3>Upload Excel → JSON</h3>
+
+      <input type="file" id="fileInput" accept=".xls,.xlsx">
+      <button id="uploadBtn">Upload</button>
+
+      <textarea id="jsonBox" placeholder="JSON sẽ hiển thị ở đây"></textarea>
+
+      <div class="btn-group">
+        <button id="copyBtn">📋 Copy</button>
+        <button id="downloadBtn">⬇️ Download data.js</button>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- DATA FOR VIEW -->
+  <script src="../data.js"></script>
+
+  <!-- JS -->
+  <script src="admin.js"></script>
+  <script src="module-view.js"></script>
+  <script src="module-upload.js"></script>
+</body>
+
+</html>
