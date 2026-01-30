@@ -1,0 +1,103 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  background: #f4f6fb;
+  padding: 16px;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+/* ================= TABLE (DESKTOP) ================= */
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+th {
+  background: #2563eb;
+  color: white;
+  font-size: 14px;
+  padding: 10px 6px;
+}
+
+td {
+  border: 1px solid #e5e7eb;
+  padding: 6px;
+  vertical-align: top;
+  text-align: center;
+  min-width: 90px;
+}
+
+.class {
+  display: inline-block;
+  background: #e0ebff;
+  color: #1e3a8a;
+  padding: 4px 14px;
+  margin: 3px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.empty {
+  color: #cbd5e1;
+  font-size: 12px;
+}
+
+/* ================= MOBILE CARDS ================= */
+
+.mobile {
+  display: none;
+}
+
+.day-card {
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.day-title {
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+
+.day-classes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .table-wrapper {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
