@@ -9,8 +9,54 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Tin",
-          "gv": "Vy"
+          "mon": "GDCD",
+          "gv": "Đào"
+        },
+        {
+          "tiet": "3",
+          "mon": "Văn",
+          "gv": "Thắng V"
+        },
+        {
+          "tiet": "4",
+          "mon": "Văn",
+          "gv": "Thắng V"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "KHTN",
+          "gv": "Nhi"
+        },
+        {
+          "tiet": "6",
+          "mon": "KHTN",
+          "gv": "Nhi"
+        },
+        {
+          "tiet": "7",
+          "mon": "GDTC",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "GDTC",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 3": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Văn",
+          "gv": "Thắng V"
+        },
+        {
+          "tiet": "2",
+          "mon": "Văn",
+          "gv": "Thắng V"
         },
         {
           "tiet": "3",
@@ -31,8 +77,8 @@ const data = {
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Mi"
+          "mon": "Tin",
+          "gv": "Vy"
         },
         {
           "tiet": "7",
@@ -46,90 +92,44 @@ const data = {
         }
       ]
     },
-    "Thứ 3": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "Toán",
-          "gv": "Thành"
-        },
-        {
-          "tiet": "2",
-          "mon": "Toán",
-          "gv": "Thành"
-        },
-        {
-          "tiet": "3",
-          "mon": "KHTN",
-          "gv": "Nhi"
-        },
-        {
-          "tiet": "4",
-          "mon": "Địa",
-          "gv": "Ánh"
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Mi"
-        },
-        {
-          "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Mi"
-        },
-        {
-          "tiet": "7",
-          "mon": "GDTC",
-          "gv": ""
-        },
-        {
-          "tiet": "8",
-          "mon": "GDTC",
-          "gv": ""
-        }
-      ]
-    },
     "Thứ 4": {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
+          "mon": "Toán",
+          "gv": "Thành"
         },
         {
           "tiet": "2",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Thành"
+          "mon": "Anh",
+          "gv": "Mi"
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Thành"
+          "mon": "Anh",
+          "gv": "Mi"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "GDCD",
-          "gv": "Đào"
+          "mon": "KHTN",
+          "gv": "Nhi"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Thắng V"
+          "mon": "KHTN",
+          "gv": "Nhi"
         },
         {
           "tiet": "7",
-          "mon": "Văn",
-          "gv": "Thắng V"
+          "mon": "Địa",
+          "gv": "Ánh"
         },
         {
           "tiet": "8",
@@ -142,40 +142,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "Mi"
+          "mon": "KHTN",
+          "gv": "Nhi"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Mi"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Thắng V"
+          "mon": "Anh",
+          "gv": "Mi"
         },
         {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "Thắng V"
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "KHTN",
-          "gv": "Nhi"
+          "mon": "Toán",
+          "gv": "Thành"
         },
         {
           "tiet": "6",
-          "mon": "KHTN",
-          "gv": "Nhi"
+          "mon": "Toán",
+          "gv": "Thành"
         },
         {
           "tiet": "7",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "HĐTN 3",
+          "gv": "Trang"
         },
         {
           "tiet": "8",
@@ -193,25 +193,25 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "Toán",
+          "gv": "Thành"
         },
         {
           "tiet": "3",
-          "mon": "KHTN",
-          "gv": "Nhi"
+          "mon": "Anh",
+          "gv": "Mi"
         },
         {
           "tiet": "4",
-          "mon": "KHTN",
-          "gv": "Nhi"
+          "mon": "Anh",
+          "gv": "Mi"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "HĐTN 3",
-          "gv": "H.Trang"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "6",
@@ -222,6 +222,11 @@ const data = {
           "tiet": "7",
           "mon": "Văn",
           "gv": "Thắng V"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -241,39 +246,39 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Nhung"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Nhung"
+          "mon": "KHTN",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "4",
-          "mon": "Tin",
-          "gv": "Vy"
+          "mon": "Toán",
+          "gv": "Hiền T"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "C.nghệ",
-          "gv": "M.Hải"
+          "mon": "Anh",
+          "gv": "Mi"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Hiền T"
+          "mon": "Anh",
+          "gv": "Mi"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Hiền T"
+          "mon": "GDTC",
+          "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "",
+          "mon": "GDTC",
           "gv": ""
         }
       ]
@@ -282,44 +287,44 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "Mi"
+          "mon": "Văn",
+          "gv": "Nhung"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Mi"
+          "mon": "Văn",
+          "gv": "Nhung"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Nhung"
+          "mon": "Toán",
+          "gv": "Hiền T"
         },
         {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "Nhung"
+          "mon": "Toán",
+          "gv": "Hiền T"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "KHTN",
-          "gv": "Ng.Mai"
+          "mon": "Anh",
+          "gv": "Mi"
         },
         {
           "tiet": "6",
-          "mon": "KHTN",
-          "gv": "Ng.Mai"
+          "mon": "Anh",
+          "gv": "Mi"
         },
         {
           "tiet": "7",
-          "mon": "GDTC",
-          "gv": ""
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -328,13 +333,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "KHTN",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Hiền T"
+          "mon": "KHTN",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "3",
@@ -343,25 +348,25 @@ const data = {
         },
         {
           "tiet": "4",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Toán",
+          "gv": "Hiền T"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Nhung"
+          "mon": "Địa",
+          "gv": "Ánh"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Nhung"
+          "mon": "HĐTN 3",
+          "gv": "Trang"
         },
         {
           "tiet": "7",
-          "mon": "KHTN",
-          "gv": "Ng.Mai"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "8",
@@ -374,30 +379,30 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "KHTN",
-          "gv": "Ng.Mai"
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         },
         {
           "tiet": "2",
-          "mon": "KHTN",
-          "gv": "Ng.Mai"
+          "mon": "GDCD",
+          "gv": "Đào"
         },
         {
           "tiet": "3",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "Văn",
+          "gv": "Nhung"
         },
         {
           "tiet": "4",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
+          "mon": "Văn",
+          "gv": "Nhung"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Hiền T"
+          "mon": "Tin",
+          "gv": "Vy"
         },
         {
           "tiet": "6",
@@ -406,8 +411,8 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "Ng.ngữ",
-          "gv": "Mi"
+          "mon": "Toán",
+          "gv": "Hiền T"
         },
         {
           "tiet": "8",
@@ -420,40 +425,45 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "GDCD",
-          "gv": "Đào"
+          "mon": "Anh",
+          "gv": "Mi"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Hiền T"
+          "mon": "Anh",
+          "gv": "Mi"
         },
         {
           "tiet": "3",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "KHTN",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "4",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "KHTN",
+          "gv": "Ng.Mai"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Mi"
+          "mon": "C.nghệ",
+          "gv": "M.Hải"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Mi"
+          "mon": "Văn",
+          "gv": "Nhung"
         },
         {
           "tiet": "7",
-          "mon": "HĐTN 3",
-          "gv": "H.Trang"
+          "mon": "Văn",
+          "gv": "Nhung"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -473,13 +483,13 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "Văn",
+          "gv": "H'Mai"
         },
         {
           "tiet": "3",
-          "mon": "KHTN",
-          "gv": "L.Ngân"
+          "mon": "Văn",
+          "gv": "H'Mai"
         },
         {
           "tiet": "4",
@@ -490,22 +500,22 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Thu"
+          "mon": "Anh",
+          "gv": "Tú"
         },
         {
           "tiet": "6",
-          "mon": "GDCD",
-          "gv": "Đào"
+          "mon": "Anh",
+          "gv": "Tú"
         },
         {
           "tiet": "7",
-          "mon": "HĐTN 3",
-          "gv": "H.Trang"
+          "mon": "GDTC",
+          "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "",
+          "mon": "GDTC",
           "gv": ""
         }
       ]
@@ -514,44 +524,44 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "Tú"
+          "mon": "KHTN",
+          "gv": "L.Ngân"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Tú"
+          "mon": "KHTN",
+          "gv": "L.Ngân"
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Thu"
+          "mon": "Văn",
+          "gv": "H'Mai"
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Thu"
+          "mon": "Văn",
+          "gv": "H'Mai"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "H'Mai"
+          "mon": "Toán",
+          "gv": "Thu"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "H'Mai"
+          "mon": "Anh",
+          "gv": "Tú"
         },
         {
           "tiet": "7",
-          "mon": "GDTC",
-          "gv": ""
+          "mon": "Anh",
+          "gv": "Tú"
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -570,30 +580,30 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "KHTN",
-          "gv": "L.Ngân"
+          "mon": "Toán",
+          "gv": "Thu"
         },
         {
           "tiet": "4",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "Toán",
+          "gv": "Thu"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Tin",
-          "gv": "Vy"
+          "mon": "C.nghệ",
+          "gv": "M.Hải"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Tú"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "7",
-          "mon": "Ng.ngữ",
-          "gv": "Tú"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "8",
@@ -606,23 +616,23 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Thu"
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "2",
+          "mon": "Tin",
+          "gv": "Vy"
+        },
+        {
+          "tiet": "3",
           "mon": "Toán",
           "gv": "Thu"
         },
         {
-          "tiet": "3",
-          "mon": "Văn",
-          "gv": "H'Mai"
-        },
-        {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "H'Mai"
+          "mon": "Toán",
+          "gv": "Thu"
         }
       ],
       "Chiều": [
@@ -633,13 +643,13 @@ const data = {
         },
         {
           "tiet": "6",
-          "mon": "C.nghệ",
-          "gv": "M.Hải"
+          "mon": "KHTN",
+          "gv": "L.Ngân"
         },
         {
           "tiet": "7",
-          "mon": "Ng.ngữ",
-          "gv": "Tú"
+          "mon": "KHTN",
+          "gv": "L.Ngân"
         },
         {
           "tiet": "8",
@@ -662,13 +672,13 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "KHTN",
-          "gv": "L.Ngân"
+          "mon": "Anh",
+          "gv": "Tú"
         },
         {
           "tiet": "4",
-          "mon": "KHTN",
-          "gv": "L.Ngân"
+          "mon": "Anh",
+          "gv": "Tú"
         }
       ],
       "Chiều": [
@@ -679,12 +689,17 @@ const data = {
         },
         {
           "tiet": "6",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "HĐTN 3",
+          "gv": "Trang"
         },
         {
           "tiet": "7",
-          "mon": "TANN",
+          "mon": "GDCD",
+          "gv": "Đào"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
           "gv": ""
         },
         {
@@ -705,25 +720,25 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "Văn",
+          "gv": "Nhung"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "Hà A"
+          "mon": "Văn",
+          "gv": "Nhung"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
-          "gv": "Hà A"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "Toán",
+          "gv": "Thu"
         },
         {
           "tiet": "6",
@@ -732,12 +747,12 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Thu"
+          "mon": "GDTC",
+          "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "",
+          "mon": "GDTC",
           "gv": ""
         }
       ]
@@ -746,40 +761,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Văn",
-          "gv": "Nhung"
+          "mon": "KHTN",
+          "gv": "Bảo H"
         },
         {
           "tiet": "2",
+          "mon": "KHTN",
+          "gv": "Bảo H"
+        },
+        {
+          "tiet": "3",
           "mon": "Văn",
           "gv": "Nhung"
         },
         {
-          "tiet": "3",
-          "mon": "KHTN",
-          "gv": "Bảo H"
-        },
-        {
           "tiet": "4",
-          "mon": "KHTN",
-          "gv": "Bảo H"
+          "mon": "Văn",
+          "gv": "Nhung"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Thu"
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         },
         {
           "tiet": "6",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "HĐTN 3",
+          "gv": "Trang"
         },
         {
           "tiet": "7",
-          "mon": "HĐTN 3",
-          "gv": "H.Trang"
+          "mon": "Toán",
+          "gv": "Thu"
         },
         {
           "tiet": "8",
@@ -792,44 +807,44 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Văn",
-          "gv": "Nhung"
+          "mon": "Toán",
+          "gv": "Thu"
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Nhung"
+          "mon": "Toán",
+          "gv": "Thu"
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Thu"
+          "mon": "Anh",
+          "gv": "Hà A"
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Thu"
+          "mon": "Anh",
+          "gv": "Hà A"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "Văn",
+          "gv": "Nhung"
         },
         {
           "tiet": "6",
-          "mon": "GDCD",
-          "gv": "Đào"
+          "mon": "Văn",
+          "gv": "Nhung"
         },
         {
           "tiet": "7",
-          "mon": "GDTC",
-          "gv": ""
+          "mon": "C.nghệ",
+          "gv": "M.Hải"
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -838,40 +853,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Văn",
-          "gv": "Nhung"
+          "mon": "GDCD",
+          "gv": "Đào"
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Nhung"
+          "mon": "KHTN",
+          "gv": "Bảo H"
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Thu"
+          "mon": "KHTN",
+          "gv": "Bảo H"
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Thu"
+          "mon": "Nhạc",
+          "gv": "Tài"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "KHTN",
-          "gv": "Bảo H"
+          "mon": "Anh",
+          "gv": "Hà A"
         },
         {
           "tiet": "6",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
+          "mon": "Anh",
+          "gv": "Hà A"
         },
         {
           "tiet": "7",
-          "mon": "Ng.ngữ",
-          "gv": "Hà A"
+          "mon": "Tin",
+          "gv": "Vy"
         },
         {
           "tiet": "8",
@@ -884,40 +899,45 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Hà A"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Hà A"
         },
         {
           "tiet": "3",
-          "mon": "KHTN",
-          "gv": "Bảo H"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "4",
-          "mon": "KHTN",
-          "gv": "Bảo H"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "C.nghệ",
-          "gv": "M.Hải"
+          "mon": "Toán",
+          "gv": "Thu"
         },
         {
           "tiet": "6",
-          "mon": "Tin",
-          "gv": "Vy"
+          "mon": "Toán",
+          "gv": "Thu"
         },
         {
           "tiet": "7",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "KHTN",
+          "gv": "Bảo H"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -937,40 +957,40 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "P.Mai"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "H'Mai"
+          "mon": "Anh",
+          "gv": "P.Mai"
         },
         {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "H'Mai"
+          "mon": "GDCD",
+          "gv": "Đào"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "GDCD",
-          "gv": "Đào"
+          "mon": "Toán",
+          "gv": "Thoại"
         },
         {
           "tiet": "6",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
+          "mon": "Toán",
+          "gv": "Thoại"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "8",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "Camb",
+          "gv": "P.Mai"
         }
       ]
     },
@@ -978,45 +998,45 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "Văn",
+          "gv": "H'Mai"
         },
         {
           "tiet": "2",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "Văn",
+          "gv": "H'Mai"
         },
         {
           "tiet": "3",
           "mon": "KHTN",
-          "gv": "Tr.Anh"
+          "gv": "Dung S"
         },
         {
           "tiet": "4",
           "mon": "KHTN",
-          "gv": "Tr.Anh"
+          "gv": "Dung S"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "P.Mai"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "P.Mai"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "GDTC",
+          "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "GDTC",
+          "gv": ""
         }
       ]
     },
@@ -1024,8 +1044,8 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         },
         {
           "tiet": "2",
@@ -1034,13 +1054,13 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "P.Mai"
+          "mon": "Toán",
+          "gv": "Thoại"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
-          "gv": "P.Mai"
+          "mon": "KHTN",
+          "gv": "Dung S"
         }
       ],
       "Chiều": [
@@ -1056,13 +1076,13 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "GDTC",
-          "gv": ""
+          "mon": "HĐTN 3",
+          "gv": "Trang"
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
-          "gv": ""
+          "mon": "Camb",
+          "gv": "P.Mai"
         }
       ]
     },
@@ -1070,13 +1090,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Cam",
-          "gv": "P.Mai"
+          "mon": "Toán",
+          "gv": "Thoại"
         },
         {
           "tiet": "2",
-          "mon": "Cam",
-          "gv": "P.Mai"
+          "mon": "Toán",
+          "gv": "Thoại"
         },
         {
           "tiet": "3",
@@ -1085,25 +1105,25 @@ const data = {
         },
         {
           "tiet": "4",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "Tin",
+          "gv": "Vy"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "KHTN",
-          "gv": "Tr.Anh"
+          "mon": "Văn",
+          "gv": "H'Mai"
         },
         {
           "tiet": "6",
-          "mon": "KHTN",
-          "gv": "Tr.Anh"
+          "mon": "Văn",
+          "gv": "H'Mai"
         },
         {
           "tiet": "7",
-          "mon": "C.nghệ",
-          "gv": "M.Hải"
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "8",
@@ -1116,40 +1136,45 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "KHTN",
-          "gv": "Tr.Anh"
+          "mon": "Anh",
+          "gv": "P.Mai"
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "H'Mai"
+          "mon": "Anh",
+          "gv": "P.Mai"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "H'Mai"
+          "mon": "KHTN",
+          "gv": "Dung S"
         },
         {
           "tiet": "4",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "KHTN",
+          "gv": "Dung S"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Tin",
-          "gv": "Vy"
+          "mon": "Toán",
+          "gv": "Thoại"
         },
         {
           "tiet": "6",
-          "mon": "HĐTN 3",
-          "gv": "H.Trang"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "C.nghệ",
+          "gv": "M.Hải"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -1169,40 +1194,40 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "GDCD",
-          "gv": "Đào"
+          "mon": "KHTN",
+          "gv": "Nhi"
         },
         {
           "tiet": "3",
-          "mon": "KHTN",
-          "gv": "Nhi"
+          "mon": "Toán",
+          "gv": "Thu"
         },
         {
           "tiet": "4",
-          "mon": "KHTN",
-          "gv": "Nhi"
+          "mon": "Toán",
+          "gv": "Thu"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Thắng V"
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Thắng V"
+          "mon": "Anh",
+          "gv": "P.Mai"
         },
         {
           "tiet": "7",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "P.Mai"
         },
         {
           "tiet": "8",
-          "mon": "C.nghệ",
-          "gv": "M.Hải"
+          "mon": "",
+          "gv": ""
         }
       ]
     },
@@ -1210,45 +1235,45 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Văn",
-          "gv": "Thắng V"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Thắng V"
+          "mon": "KHTN",
+          "gv": "Nhi"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "P.Mai"
+          "mon": "KHTN",
+          "gv": "Nhi"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
-          "gv": "P.Mai"
+          "mon": "Tin",
+          "gv": "Vy"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "KHTN",
-          "gv": "Nhi"
+          "mon": "Văn",
+          "gv": "Thắng V"
         },
         {
           "tiet": "6",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "Văn",
+          "gv": "Thắng V"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Thu"
+          "mon": "HĐTN 3",
+          "gv": "Trang"
         },
         {
           "tiet": "8",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "Camb",
+          "gv": "P.Mai"
         }
       ]
     },
@@ -1256,13 +1281,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "P.Mai"
+          "mon": "GDCD",
+          "gv": "Đào"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "P.Mai"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "3",
@@ -1302,35 +1327,81 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "Toán",
+          "gv": "Thu"
         },
         {
           "tiet": "2",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "Toán",
+          "gv": "Thu"
         },
         {
           "tiet": "3",
-          "mon": "Cam",
+          "mon": "KHTN",
+          "gv": "Nhi"
+        },
+        {
+          "tiet": "4",
+          "mon": "KHTN",
+          "gv": "Nhi"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Nhạc",
+          "gv": "Tài"
+        },
+        {
+          "tiet": "6",
+          "mon": "Anh",
+          "gv": "P.Mai"
+        },
+        {
+          "tiet": "7",
+          "mon": "Anh",
+          "gv": "P.Mai"
+        },
+        {
+          "tiet": "8",
+          "mon": "Camb",
+          "gv": "P.Mai"
+        }
+      ]
+    },
+    "Thứ 6": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Văn",
+          "gv": "Thắng V"
+        },
+        {
+          "tiet": "2",
+          "mon": "Văn",
+          "gv": "Thắng V"
+        },
+        {
+          "tiet": "3",
+          "mon": "Anh",
           "gv": "P.Mai"
         },
         {
           "tiet": "4",
-          "mon": "Cam",
+          "mon": "Anh",
           "gv": "P.Mai"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "HĐTN 3",
-          "gv": "H.Trang"
+          "mon": "Địa",
+          "gv": "Ánh"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Thu"
+          "mon": "C.nghệ",
+          "gv": "M.Hải"
         },
         {
           "tiet": "7",
@@ -1341,47 +1412,6 @@ const data = {
           "tiet": "8",
           "mon": "",
           "gv": ""
-        }
-      ]
-    },
-    "Thứ 6": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "KHTN",
-          "gv": "Nhi"
-        },
-        {
-          "tiet": "2",
-          "mon": "KHTN",
-          "gv": "Nhi"
-        },
-        {
-          "tiet": "3",
-          "mon": "Toán",
-          "gv": "Thu"
-        },
-        {
-          "tiet": "4",
-          "mon": "Toán",
-          "gv": "Thu"
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "TANN",
-          "gv": ""
-        },
-        {
-          "tiet": "6",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
-        },
-        {
-          "tiet": "7",
-          "mon": "Tin",
-          "gv": "Vy"
         },
         {
           "tiet": "8",
@@ -1401,30 +1431,76 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Hiền T"
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Phượng"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "Tin",
+          "gv": "Vy"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
+          "mon": "Toán",
+          "gv": "Hiền T"
+        },
+        {
+          "tiet": "6",
+          "mon": "Toán",
+          "gv": "Hiền T"
+        },
+        {
+          "tiet": "7",
+          "mon": "GDTC",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "GDTC",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 3": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Anh",
+          "gv": "Phượng"
+        },
+        {
+          "tiet": "2",
+          "mon": "Anh",
+          "gv": "Phượng"
+        },
+        {
+          "tiet": "3",
           "mon": "Mĩ thuật",
           "gv": "Điệp"
         },
         {
-          "tiet": "6",
+          "tiet": "4",
+          "mon": "Sinh",
+          "gv": "M.Hải"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
           "mon": "LS",
           "gv": "ĐL-Nhẫn"
+        },
+        {
+          "tiet": "6",
+          "mon": "Lí",
+          "gv": "D.Hường"
         },
         {
           "tiet": "7",
@@ -1438,63 +1514,17 @@ const data = {
         }
       ]
     },
-    "Thứ 3": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "Sinh",
-          "gv": "M.Hải"
-        },
-        {
-          "tiet": "2",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
-        },
-        {
-          "tiet": "3",
-          "mon": "Toán",
-          "gv": "Hiền T"
-        },
-        {
-          "tiet": "4",
-          "mon": "Toán",
-          "gv": "Hiền T"
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "C.nghệ",
-          "gv": "Bảo H"
-        },
-        {
-          "tiet": "6",
-          "mon": "Hóa",
-          "gv": "Bảo H"
-        },
-        {
-          "tiet": "7",
-          "mon": "TANN",
-          "gv": ""
-        },
-        {
-          "tiet": "8",
-          "mon": "",
-          "gv": ""
-        }
-      ]
-    },
     "Thứ 4": {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "Toán",
+          "gv": "Hiền T"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "Toán",
+          "gv": "Hiền T"
         },
         {
           "tiet": "3",
@@ -1510,18 +1540,18 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Hiền T"
+          "mon": "Hóa",
+          "gv": "Bảo H"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Hiền T"
+          "mon": "Sinh",
+          "gv": "M.Hải"
         },
         {
           "tiet": "7",
-          "mon": "HĐTN 3",
-          "gv": "H.Trang"
+          "mon": "C.nghệ",
+          "gv": "Nhi"
         },
         {
           "tiet": "8",
@@ -1534,30 +1564,30 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Hiền T"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Hiền T"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "3",
-          "mon": "Tin",
-          "gv": "Vy"
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "4",
-          "mon": "Lí",
-          "gv": "D.Hường"
+          "mon": "Hóa",
+          "gv": "Bảo H"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "Toán",
+          "gv": "Hiền T"
         },
         {
           "tiet": "6",
@@ -1580,44 +1610,49 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Sinh",
-          "gv": "M.Hải"
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "2",
-          "mon": "Hóa",
-          "gv": "Bảo H"
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Xuân"
+          "mon": "Toán",
+          "gv": "Hiền T"
         },
         {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "Xuân"
+          "mon": "Toán",
+          "gv": "Hiền T"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "HĐTN 3",
+          "gv": "Trang"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "Văn",
+          "gv": "Xuân"
         },
         {
           "tiet": "7",
-          "mon": "GDTC",
+          "mon": "Văn",
+          "gv": "Xuân"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
           "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -1638,34 +1673,34 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "Tin",
-          "gv": "Vy"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Lí",
+          "gv": "D.Hường"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Mi"
+          "mon": "Toán",
+          "gv": "Hòa"
         },
         {
           "tiet": "6",
-          "mon": "HĐTN 3",
-          "gv": "H.Trang"
+          "mon": "Toán",
+          "gv": "Hòa"
         },
         {
           "tiet": "7",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "GDTC",
+          "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "",
+          "mon": "GDTC",
           "gv": ""
         }
       ]
@@ -1674,13 +1709,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Sinh",
+          "gv": "M.Hải"
         },
         {
           "tiet": "2",
-          "mon": "GDCD",
-          "gv": "Đào"
+          "mon": "Tin",
+          "gv": "Vy"
         },
         {
           "tiet": "3",
@@ -1696,8 +1731,8 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Xuân"
+          "mon": "C.nghệ",
+          "gv": "Nhi"
         },
         {
           "tiet": "6",
@@ -1706,8 +1741,8 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "C.nghệ",
-          "gv": "Nhi"
+          "mon": "Văn",
+          "gv": "Xuân"
         },
         {
           "tiet": "8",
@@ -1730,30 +1765,30 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "Mi"
+          "mon": "GDCD",
+          "gv": "Đào"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
-          "gv": "Mi"
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Anh",
+          "gv": "Mi"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Anh",
+          "gv": "Mi"
         },
         {
           "tiet": "7",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
+          "mon": "Toán",
+          "gv": "Hòa"
         },
         {
           "tiet": "8",
@@ -1776,30 +1811,30 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Văn",
+          "gv": "Xuân"
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Văn",
+          "gv": "Xuân"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Mi"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Mi"
         },
         {
           "tiet": "7",
-          "mon": "Lí",
-          "gv": "D.Hường"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "8",
@@ -1812,44 +1847,49 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
+        },
+        {
+          "tiet": "2",
           "mon": "Hóa",
           "gv": "Bảo H"
         },
         {
-          "tiet": "2",
-          "mon": "Sinh",
-          "gv": "M.Hải"
-        },
-        {
           "tiet": "3",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "Toán",
+          "gv": "Hòa"
         },
         {
           "tiet": "4",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "Toán",
+          "gv": "Hòa"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Xuân"
+          "mon": "Anh",
+          "gv": "Mi"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Xuân"
+          "mon": "Anh",
+          "gv": "Mi"
         },
         {
           "tiet": "7",
-          "mon": "GDTC",
+          "mon": "HĐTN 3",
+          "gv": "Trang"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
           "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -1865,35 +1905,35 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Phúc"
+          "mon": "Toán",
+          "gv": "Hiền T"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Phúc"
         },
         {
           "tiet": "4",
-          "mon": "GDCD",
-          "gv": "Đào"
+          "mon": "Anh",
+          "gv": "Phúc"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Hiền T"
+          "mon": "Hóa",
+          "gv": "Bảo H"
         },
         {
           "tiet": "6",
-          "mon": "Lí",
-          "gv": "D.Hường"
+          "mon": "HĐTN 3",
+          "gv": "Trang"
         },
         {
           "tiet": "7",
-          "mon": "C.nghệ",
-          "gv": "Bảo H"
+          "mon": "GDCD",
+          "gv": "Đào"
         },
         {
           "tiet": "8",
@@ -1906,23 +1946,23 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Hiền T"
+          "mon": "Anh",
+          "gv": "Phúc"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Hiền T"
+          "mon": "Anh",
+          "gv": "Phúc"
         },
         {
           "tiet": "3",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "Tin",
+          "gv": "Vy"
         },
         {
           "tiet": "4",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "Lí",
+          "gv": "D.Hường"
         }
       ],
       "Chiều": [
@@ -1938,12 +1978,12 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "GDTC",
+          "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "",
+          "mon": "GDTC",
           "gv": ""
         }
       ]
@@ -1952,40 +1992,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "Phúc"
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Phúc"
+          "mon": "Sinh",
+          "gv": "Dung S"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Nhung"
+          "mon": "Anh",
+          "gv": "Phúc"
         },
         {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "Nhung"
+          "mon": "Anh",
+          "gv": "Phúc"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "6",
-          "mon": "Tin",
-          "gv": "Vy"
+          "mon": "Toán",
+          "gv": "Hiền T"
         },
         {
           "tiet": "7",
-          "mon": "Sinh",
-          "gv": "Dung S"
+          "mon": "Toán",
+          "gv": "Hiền T"
         },
         {
           "tiet": "8",
@@ -1998,13 +2038,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "Văn",
+          "gv": "Nhung"
         },
         {
           "tiet": "2",
-          "mon": "Sinh",
-          "gv": "Dung S"
+          "mon": "Văn",
+          "gv": "Nhung"
         },
         {
           "tiet": "3",
@@ -2020,18 +2060,18 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Phúc"
+          "mon": "C.nghệ",
+          "gv": "Nhi"
         },
         {
           "tiet": "6",
-          "mon": "Hóa",
-          "gv": "Bảo H"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "7",
-          "mon": "HĐTN 3",
-          "gv": "H.Trang"
+          "mon": "Hóa",
+          "gv": "Bảo H"
         },
         {
           "tiet": "8",
@@ -2044,44 +2084,49 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Văn",
-          "gv": "Nhung"
+          "mon": "Toán",
+          "gv": "Hiền T"
         },
         {
           "tiet": "2",
+          "mon": "Toán",
+          "gv": "Hiền T"
+        },
+        {
+          "tiet": "3",
           "mon": "Văn",
           "gv": "Nhung"
         },
         {
-          "tiet": "3",
-          "mon": "Toán",
-          "gv": "Hiền T"
-        },
-        {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Hiền T"
+          "mon": "Văn",
+          "gv": "Nhung"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Hóa",
-          "gv": "Bảo H"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "6",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         },
         {
           "tiet": "7",
-          "mon": "GDTC",
+          "mon": "Sinh",
+          "gv": "Dung S"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
           "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -2097,40 +2142,40 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Thắng V"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Thắng V"
+          "mon": "Hóa",
+          "gv": "Bảo H"
         },
         {
           "tiet": "4",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "Sinh",
+          "gv": "Dung S"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "C.nghệ",
-          "gv": "Nhi"
+          "mon": "Toán",
+          "gv": "Quảng"
         },
         {
           "tiet": "6",
-          "mon": "Sinh",
-          "gv": "Dung S"
+          "mon": "GDCD",
+          "gv": "Đào"
         },
         {
           "tiet": "7",
-          "mon": "Cam",
-          "gv": "Ý"
+          "mon": "HĐTN 3",
+          "gv": "Trang"
         },
         {
           "tiet": "8",
-          "mon": "Cam",
-          "gv": "Ý"
+          "mon": "",
+          "gv": ""
         }
       ]
     },
@@ -2138,23 +2183,23 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Hóa",
-          "gv": "Bảo H"
+          "mon": "Toán",
+          "gv": "Quảng"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Ý"
+          "mon": "Toán",
+          "gv": "Quảng"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Ý"
         },
         {
           "tiet": "4",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "Anh",
+          "gv": "Ý"
         }
       ],
       "Chiều": [
@@ -2165,18 +2210,18 @@ const data = {
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Quảng"
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Quảng"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "8",
-          "mon": "Lí",
-          "gv": "D.Hường"
+          "mon": "Camb",
+          "gv": "Ý"
         }
       ]
     },
@@ -2184,13 +2229,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "Ý"
+          "mon": "Văn",
+          "gv": "Thắng V"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Ý"
+          "mon": "Văn",
+          "gv": "Thắng V"
         },
         {
           "tiet": "3",
@@ -2206,22 +2251,22 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Hóa",
-          "gv": "Bảo H"
+          "mon": "Anh",
+          "gv": "Ý"
         },
         {
           "tiet": "6",
-          "mon": "HĐTN 3",
-          "gv": "H.Trang"
+          "mon": "Anh",
+          "gv": "Ý"
         },
         {
           "tiet": "7",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "GDTC",
+          "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "",
+          "mon": "GDTC",
           "gv": ""
         }
       ]
@@ -2240,35 +2285,35 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Quảng"
+          "mon": "Lí",
+          "gv": "D.Hường"
         },
         {
           "tiet": "4",
-          "mon": "GDCD",
-          "gv": "Đào"
+          "mon": "Sinh",
+          "gv": "Dung S"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
-        },
-        {
-          "tiet": "6",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
-        },
-        {
-          "tiet": "7",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Ý"
         },
         {
+          "tiet": "6",
+          "mon": "Anh",
+          "gv": "Ý"
+        },
+        {
+          "tiet": "7",
+          "mon": "C.nghệ",
+          "gv": "Nhi"
+        },
+        {
           "tiet": "8",
-          "mon": "",
-          "gv": ""
+          "mon": "Camb",
+          "gv": "Ý"
         }
       ]
     },
@@ -2276,13 +2321,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Sinh",
-          "gv": "Dung S"
+          "mon": "Hóa",
+          "gv": "Bảo H"
         },
         {
           "tiet": "2",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "3",
@@ -2308,12 +2353,17 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "GDTC",
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
           "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -2329,40 +2379,40 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Sinh",
-          "gv": "Dung S"
+          "mon": "Tin",
+          "gv": "Vy"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Ý"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Ý"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Quảng"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Quảng"
+          "mon": "Văn",
+          "gv": "H'Mai"
         },
         {
           "tiet": "7",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
+          "mon": "Văn",
+          "gv": "H'Mai"
         },
         {
           "tiet": "8",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "Camb",
+          "gv": "Ý"
         }
       ]
     },
@@ -2370,44 +2420,44 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Quảng"
+          "mon": "Anh",
+          "gv": "Ý"
         },
         {
           "tiet": "2",
+          "mon": "Anh",
+          "gv": "Ý"
+        },
+        {
+          "tiet": "3",
           "mon": "Toán",
           "gv": "Quảng"
         },
         {
-          "tiet": "3",
-          "mon": "Văn",
-          "gv": "H'Mai"
-        },
-        {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "H'Mai"
+          "mon": "Toán",
+          "gv": "Quảng"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "GDCD",
-          "gv": "Đào"
+          "mon": "Văn",
+          "gv": "H'Mai"
         },
         {
           "tiet": "6",
-          "mon": "HĐTN 3",
-          "gv": "H.Trang"
+          "mon": "Văn",
+          "gv": "H'Mai"
         },
         {
           "tiet": "7",
-          "mon": "Hóa",
-          "gv": "Bảo H"
+          "mon": "GDTC",
+          "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "TANN",
+          "mon": "GDTC",
           "gv": ""
         }
       ]
@@ -2416,45 +2466,45 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Quảng"
+          "mon": "Sinh",
+          "gv": "Dung S"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Quảng"
+          "mon": "Lí",
+          "gv": "D.Hường"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "H'Mai"
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "H'Mai"
+          "mon": "GDCD",
+          "gv": "Đào"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Sinh",
-          "gv": "Dung S"
+          "mon": "Toán",
+          "gv": "Quảng"
         },
         {
           "tiet": "6",
-          "mon": "C.nghệ",
-          "gv": "Bảo H"
+          "mon": "Toán",
+          "gv": "Quảng"
         },
         {
           "tiet": "7",
-          "mon": "Ng.ngữ",
-          "gv": "Ý"
+          "mon": "Hóa",
+          "gv": "Bảo H"
         },
         {
           "tiet": "8",
-          "mon": "",
-          "gv": ""
+          "mon": "Camb",
+          "gv": "Ý"
         }
       ]
     },
@@ -2462,40 +2512,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "Anh",
+          "gv": "Ý"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Ý"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "Ý"
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         },
         {
           "tiet": "4",
-          "mon": "Tin",
-          "gv": "Vy"
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "H'Mai"
+          "mon": "HĐTN 3",
+          "gv": "Trang"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "H'Mai"
+          "mon": "Toán",
+          "gv": "Quảng"
         },
         {
           "tiet": "7",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "Toán",
+          "gv": "Quảng"
         },
         {
           "tiet": "8",
@@ -2513,39 +2563,44 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "LS",
-          "gv": "ĐL-Nhẫn"
+          "mon": "Sinh",
+          "gv": "Dung S"
         },
         {
           "tiet": "3",
-          "mon": "Cam",
-          "gv": "Ý"
+          "mon": "Văn",
+          "gv": "H'Mai"
         },
         {
           "tiet": "4",
-          "mon": "Cam",
-          "gv": "Ý"
+          "mon": "Văn",
+          "gv": "H'Mai"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Lí",
-          "gv": "D.Hường"
-        },
-        {
-          "tiet": "6",
           "mon": "Hóa",
           "gv": "Bảo H"
         },
         {
+          "tiet": "6",
+          "mon": "C.nghệ",
+          "gv": "Nhi"
+        },
+        {
           "tiet": "7",
-          "mon": "GDTC",
+          "mon": "LS",
+          "gv": "ĐL-Nhẫn"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
           "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -2561,35 +2616,35 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "Toán",
+          "gv": "Thoại"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Toán",
+          "gv": "Thoại"
         },
         {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Hóa",
+          "gv": "Nhi"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "C.nghệ",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "6",
-          "mon": "HĐTN 3",
-          "gv": "Lan"
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "7",
-          "mon": "Lí",
-          "gv": "Ng.Mai"
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "8",
@@ -2602,35 +2657,35 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Tin",
-          "gv": "Khánh T"
+          "mon": "Toán",
+          "gv": "Thoại"
         },
         {
           "tiet": "2",
-          "mon": "GDCD",
-          "gv": "Lic"
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
         },
         {
           "tiet": "3",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "4",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "Anh",
+          "gv": "Phượng"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "Văn",
+          "gv": "Thư"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "Văn",
+          "gv": "Thư"
         },
         {
           "tiet": "7",
@@ -2648,30 +2703,30 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Địa",
+          "gv": "Ánh"
         },
         {
           "tiet": "2",
+          "mon": "Địa",
+          "gv": "Ánh"
+        },
+        {
+          "tiet": "3",
           "mon": "Văn",
           "gv": "Thư"
         },
         {
-          "tiet": "3",
-          "mon": "C.nghệ",
-          "gv": "Ng.Mai"
-        },
-        {
           "tiet": "4",
-          "mon": "C.nghệ",
-          "gv": "Ng.Mai"
+          "mon": "Văn",
+          "gv": "Thư"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "C.nghệ",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "6",
@@ -2680,8 +2735,8 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "Toán",
+          "gv": "Thoại"
         },
         {
           "tiet": "8",
@@ -2694,40 +2749,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "GDCD",
+          "gv": "Lic"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Anh",
+          "gv": "Phượng"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
+          "mon": "Văn",
+          "gv": "Thư"
         },
         {
           "tiet": "6",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "Văn",
+          "gv": "Thư"
         },
         {
           "tiet": "7",
-          "mon": "Hóa",
-          "gv": "Nhi"
+          "mon": "HĐTN 3",
+          "gv": "Lan"
         },
         {
           "tiet": "8",
@@ -2740,18 +2795,18 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "Lí",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "4",
@@ -2762,8 +2817,8 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "Tin",
+          "gv": "Khánh T"
         },
         {
           "tiet": "6",
@@ -2772,8 +2827,13 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
+          "mon": "Toán",
+          "gv": "Thoại"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -2793,35 +2853,35 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Tin",
-          "gv": "Khánh T"
+          "mon": "Văn",
+          "gv": "Ân"
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "Văn",
+          "gv": "Ân"
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "Nhạc",
+          "gv": "Tài"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Hà A"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Hà A"
         },
         {
           "tiet": "7",
-          "mon": "HĐTN 3",
-          "gv": "Lan"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "8",
@@ -2834,35 +2894,35 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
+          "mon": "Hóa",
+          "gv": "Nhi"
+        },
+        {
+          "tiet": "2",
           "mon": "Địa",
           "gv": "Ánh"
         },
         {
-          "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Hà A"
-        },
-        {
           "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "Hà A"
+          "mon": "Toán",
+          "gv": "Thoại"
         },
         {
           "tiet": "4",
-          "mon": "Hóa",
-          "gv": "Nhi"
+          "mon": "Toán",
+          "gv": "Thoại"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Anh",
+          "gv": "Hà A"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Anh",
+          "gv": "Hà A"
         },
         {
           "tiet": "7",
@@ -2880,40 +2940,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
+          "mon": "Văn",
+          "gv": "Ân"
+        },
+        {
+          "tiet": "2",
+          "mon": "Văn",
+          "gv": "Ân"
+        },
+        {
+          "tiet": "3",
           "mon": "Lí",
           "gv": "Ng.Mai"
         },
         {
-          "tiet": "2",
-          "mon": "Nhạc",
-          "gv": "Tài"
-        },
-        {
-          "tiet": "3",
-          "mon": "Văn",
-          "gv": "Ân"
-        },
-        {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Tin",
+          "gv": "Khánh T"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "GDCD",
-          "gv": "Lic"
+          "mon": "Toán",
+          "gv": "Thoại"
         },
         {
           "tiet": "6",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
+          "mon": "C.nghệ",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
         },
         {
           "tiet": "8",
@@ -2926,40 +2986,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "Văn",
+          "gv": "Ân"
         },
         {
           "tiet": "2",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
+          "mon": "Văn",
+          "gv": "Ân"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Toán",
+          "gv": "Thoại"
         },
         {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Toán",
+          "gv": "Thoại"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Hà A"
+          "mon": "HĐTN 3",
+          "gv": "Lan"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Thoại"
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         },
         {
           "tiet": "8",
@@ -2982,20 +3042,20 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Anh",
+          "gv": "Hà A"
         },
         {
           "tiet": "4",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "Anh",
+          "gv": "Hà A"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
+          "mon": "GDCD",
+          "gv": "Lic"
         },
         {
           "tiet": "6",
@@ -3004,8 +3064,13 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "C.nghệ",
-          "gv": "Ng.Mai"
+          "mon": "Địa",
+          "gv": "Ánh"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -3025,35 +3090,35 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Địa",
+          "gv": "Ánh"
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "4",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "C.nghệ",
-          "gv": "Ng.Mai"
+          "mon": "HĐTN 3",
+          "gv": "Lan"
         },
         {
           "tiet": "6",
-          "mon": "C.nghệ",
-          "gv": "Ng.Mai"
+          "mon": "Tin",
+          "gv": "Khánh T"
         },
         {
           "tiet": "7",
-          "mon": "Ng.ngữ",
-          "gv": "Hà A"
+          "mon": "Toán",
+          "gv": "Hòa"
         },
         {
           "tiet": "8",
@@ -3066,13 +3131,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Hóa",
-          "gv": "Tr.Anh"
+          "mon": "Toán",
+          "gv": "Hòa"
         },
         {
           "tiet": "2",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "Toán",
+          "gv": "Hòa"
         },
         {
           "tiet": "3",
@@ -3088,13 +3153,13 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Địa",
+          "gv": "Ánh"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Hóa",
+          "gv": "Nhi"
         },
         {
           "tiet": "7",
@@ -3112,18 +3177,18 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Văn",
-          "gv": "Thắng V"
+          "mon": "Anh",
+          "gv": "Hà A"
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Thắng V"
+          "mon": "Anh",
+          "gv": "Hà A"
         },
         {
           "tiet": "3",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Toán",
+          "gv": "Hòa"
         },
         {
           "tiet": "4",
@@ -3134,18 +3199,18 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Lí",
-          "gv": "Ng.Mai"
+          "mon": "Văn",
+          "gv": "Thắng V"
         },
         {
           "tiet": "6",
-          "mon": "Tin",
-          "gv": "Khánh T"
+          "mon": "Văn",
+          "gv": "Thắng V"
         },
         {
           "tiet": "7",
-          "mon": "HĐTN 3",
-          "gv": "Lan"
+          "mon": "C.nghệ",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "8",
@@ -3158,23 +3223,23 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Hà A"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Hà A"
         },
         {
           "tiet": "3",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
+          "mon": "Văn",
+          "gv": "Thắng V"
         },
         {
           "tiet": "4",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "Văn",
+          "gv": "Thắng V"
         }
       ],
       "Chiều": [
@@ -3190,8 +3255,8 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
+          "mon": "C.nghệ",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "8",
@@ -3204,40 +3269,45 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Văn",
-          "gv": "Thắng V"
+          "mon": "Lí",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Thắng V"
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "Hà A"
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
-          "gv": "Hà A"
+          "mon": "GDCD",
+          "gv": "Lic"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "GDCD",
-          "gv": "Lic"
+          "mon": "Anh",
+          "gv": "Hà A"
         },
         {
           "tiet": "6",
+          "mon": "Anh",
+          "gv": "Hà A"
+        },
+        {
+          "tiet": "7",
           "mon": "Nhạc",
           "gv": "Tài"
         },
         {
-          "tiet": "7",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -3257,40 +3327,40 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
+          "mon": "Toán",
+          "gv": "Thắm"
         },
         {
           "tiet": "3",
-          "mon": "Cam",
-          "gv": "Tú"
+          "mon": "Toán",
+          "gv": "Thắm"
         },
         {
           "tiet": "4",
-          "mon": "Cam",
-          "gv": "Tú"
+          "mon": "Lí",
+          "gv": "Ng.Mai"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Tin",
+          "gv": "Khánh T"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "HĐTN 3",
+          "gv": "Lan"
         },
         {
           "tiet": "7",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         },
         {
           "tiet": "8",
-          "mon": "HĐTN 3",
-          "gv": "Lan"
+          "mon": "Camb",
+          "gv": "Tú"
         }
       ]
     },
@@ -3298,45 +3368,45 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "Toán",
+          "gv": "Thắm"
         },
         {
           "tiet": "2",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Toán",
+          "gv": "Thắm"
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Thắm"
+          "mon": "Địa",
+          "gv": "Ánh"
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Thắm"
+          "mon": "Địa",
+          "gv": "Ánh"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "C.nghệ",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "6",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "7",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "8",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Camb",
+          "gv": "Tú"
         }
       ]
     },
@@ -3344,35 +3414,35 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "2",
-          "mon": "Lí",
-          "gv": "Ng.Mai"
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "Văn",
+          "gv": "Ân"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "Văn",
+          "gv": "Ân"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Thắm"
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Thắm"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "7",
@@ -3390,8 +3460,8 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Tin",
-          "gv": "Khánh T"
+          "mon": "Toán",
+          "gv": "Thắm"
         },
         {
           "tiet": "2",
@@ -3400,30 +3470,30 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "Văn",
+          "gv": "Ân"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "Văn",
+          "gv": "Ân"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "C.nghệ",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "7",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
+          "mon": "GDCD",
+          "gv": "Lic"
         },
         {
           "tiet": "8",
@@ -3436,23 +3506,23 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "GDCD",
-          "gv": "Lic"
+          "mon": "Văn",
+          "gv": "Ân"
         },
         {
           "tiet": "2",
-          "mon": "Hóa",
-          "gv": "Tr.Anh"
+          "mon": "Văn",
+          "gv": "Ân"
         },
         {
           "tiet": "3",
-          "mon": "C.nghệ",
-          "gv": "Ng.Mai"
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "4",
-          "mon": "C.nghệ",
-          "gv": "Ng.Mai"
+          "mon": "Anh",
+          "gv": "Phượng"
         }
       ],
       "Chiều": [
@@ -3463,13 +3533,18 @@ const data = {
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Thắm"
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "7",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "Hóa",
+          "gv": "Nhi"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -3489,40 +3564,40 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Lí",
-          "gv": "Ng.Mai"
+          "mon": "Tin",
+          "gv": "Khánh T"
         },
         {
           "tiet": "3",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
+          "mon": "Toán",
+          "gv": "Hòa"
         },
         {
           "tiet": "4",
-          "mon": "Hóa",
-          "gv": "Tr.Anh"
+          "mon": "Toán",
+          "gv": "Hòa"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Tin",
-          "gv": "Khánh T"
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "GDCD",
+          "gv": "Lic"
         },
         {
           "tiet": "7",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "C.nghệ",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "8",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
+          "mon": "Camb",
+          "gv": "Hà A"
         }
       ]
     },
@@ -3530,45 +3605,45 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Hóa",
+          "gv": "Nhi"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Cam",
-          "gv": "Hà A"
+          "mon": "Toán",
+          "gv": "Hòa"
         },
         {
           "tiet": "6",
-          "mon": "Cam",
-          "gv": "Hà A"
+          "mon": "Toán",
+          "gv": "Hòa"
         },
         {
           "tiet": "7",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "Lí",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "8",
-          "mon": "HĐTN 3",
-          "gv": "Lan"
+          "mon": "Camb",
+          "gv": "Hà A"
         }
       ]
     },
@@ -3576,35 +3651,35 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Văn",
+          "gv": "Thư"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Văn",
+          "gv": "Thư"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Anh",
+          "gv": "Phượng"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
+          "mon": "Toán",
+          "gv": "Hòa"
         },
         {
           "tiet": "6",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "Toán",
+          "gv": "Hòa"
         },
         {
           "tiet": "7",
@@ -3622,40 +3697,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "3",
-          "mon": "C.nghệ",
-          "gv": "Ng.Mai"
+          "mon": "Văn",
+          "gv": "Thư"
         },
         {
           "tiet": "4",
-          "mon": "C.nghệ",
-          "gv": "Ng.Mai"
+          "mon": "Văn",
+          "gv": "Thư"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "HĐTN 3",
+          "gv": "Lan"
         },
         {
           "tiet": "7",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "Toán",
+          "gv": "Hòa"
         },
         {
           "tiet": "8",
@@ -3668,40 +3743,45 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "Phượng"
+          "mon": "Văn",
+          "gv": "Thư"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Văn",
+          "gv": "Thư"
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Hòa"
+          "mon": "Địa",
+          "gv": "Ánh"
         },
         {
           "tiet": "4",
-          "mon": "GDCD",
-          "gv": "Lic"
+          "mon": "Địa",
+          "gv": "Ánh"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "C.nghệ",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Anh",
+          "gv": "Phượng"
         },
         {
           "tiet": "7",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Anh",
+          "gv": "Phượng"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -3721,54 +3801,8 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Thắm"
-        },
-        {
-          "tiet": "3",
-          "mon": "Toán",
-          "gv": "Thắm"
-        },
-        {
-          "tiet": "4",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "P.Mai"
-        },
-        {
-          "tiet": "6",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
-        },
-        {
-          "tiet": "7",
-          "mon": "Văn",
-          "gv": "Thư"
-        },
-        {
-          "tiet": "8",
-          "mon": "Văn",
-          "gv": "Thư"
-        }
-      ]
-    },
-    "Thứ 3": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
-        },
-        {
-          "tiet": "2",
-          "mon": "Hóa",
-          "gv": "Nhi"
+          "mon": "Lí",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "3",
@@ -3777,8 +3811,54 @@ const data = {
         },
         {
           "tiet": "4",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Toán",
+          "gv": "Thắm"
+        },
+        {
+          "tiet": "6",
+          "mon": "Văn",
+          "gv": "Thư"
+        },
+        {
+          "tiet": "7",
+          "mon": "Văn",
+          "gv": "Thư"
+        },
+        {
+          "tiet": "8",
+          "mon": "Camb",
+          "gv": "Khanh"
+        }
+      ]
+    },
+    "Thứ 3": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Địa",
+          "gv": "Ánh"
+        },
+        {
+          "tiet": "2",
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
+        },
+        {
+          "tiet": "3",
+          "mon": "Văn",
+          "gv": "Thư"
+        },
+        {
+          "tiet": "4",
+          "mon": "Văn",
+          "gv": "Thư"
         }
       ],
       "Chiều": [
@@ -3794,13 +3874,13 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "HĐTN 3",
+          "gv": "Lan"
         },
         {
           "tiet": "8",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Camb",
+          "gv": "Khanh"
         }
       ]
     },
@@ -3808,35 +3888,35 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Cam",
-          "gv": "Khanh"
+          "mon": "GDCD",
+          "gv": "Lic"
         },
         {
           "tiet": "2",
-          "mon": "Cam",
-          "gv": "Khanh"
+          "mon": "Tin",
+          "gv": "Khánh T"
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Thắm"
+          "mon": "Địa",
+          "gv": "Ánh"
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Thắm"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "Anh",
+          "gv": "P.Mai"
         },
         {
           "tiet": "6",
-          "mon": "GDCD",
-          "gv": "Lic"
+          "mon": "Anh",
+          "gv": "P.Mai"
         },
         {
           "tiet": "7",
@@ -3854,40 +3934,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Hóa",
+          "gv": "Nhi"
         },
         {
           "tiet": "3",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "Anh",
+          "gv": "P.Mai"
         },
         {
           "tiet": "4",
-          "mon": "Tin",
-          "gv": "Khánh T"
+          "mon": "Anh",
+          "gv": "P.Mai"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "P.Mai"
+          "mon": "C.nghệ",
+          "gv": "Ng.Mai"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "P.Mai"
+          "mon": "Toán",
+          "gv": "Thắm"
         },
         {
           "tiet": "7",
-          "mon": "HĐTN 3",
-          "gv": "Lan"
+          "mon": "Toán",
+          "gv": "Thắm"
         },
         {
           "tiet": "8",
@@ -3900,40 +3980,45 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "C.nghệ",
-          "gv": "Ng.Mai"
+          "mon": "Toán",
+          "gv": "Thắm"
         },
         {
           "tiet": "2",
-          "mon": "C.nghệ",
-          "gv": "Ng.Mai"
+          "mon": "Toán",
+          "gv": "Thắm"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "P.Mai"
+          "mon": "Văn",
+          "gv": "Thư"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
-          "gv": "P.Mai"
+          "mon": "Văn",
+          "gv": "Thư"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Lí",
-          "gv": "Ng.Mai"
+          "mon": "Anh",
+          "gv": "P.Mai"
         },
         {
           "tiet": "6",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
+          "mon": "Anh",
+          "gv": "P.Mai"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Thắm"
+          "mon": "C.nghệ",
+          "gv": "Ng.Mai"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -3953,39 +4038,39 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "Văn",
+          "gv": "Hiền V"
         },
         {
           "tiet": "3",
-          "mon": "Lí",
-          "gv": "D.Hường"
+          "mon": "Văn",
+          "gv": "Hiền V"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
-          "gv": "Phúc"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Hóa",
-          "gv": "Bảo H"
+          "mon": "Tin",
+          "gv": "Cường"
         },
         {
           "tiet": "6",
-          "mon": "Hóa",
-          "gv": "Bảo H"
+          "mon": "C.nghệ",
+          "gv": "D.Hường"
         },
         {
           "tiet": "7",
-          "mon": "GDTC",
-          "gv": ""
+          "mon": "Toán",
+          "gv": "Quảng"
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -4004,30 +4089,30 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Quảng"
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "4",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Hóa",
+          "gv": "Bảo H"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Sinh",
-          "gv": "Dung S"
+          "mon": "Toán",
+          "gv": "Quảng"
         },
         {
           "tiet": "6",
-          "mon": "HĐTN 3",
-          "gv": "Lan"
+          "mon": "Toán",
+          "gv": "Quảng"
         },
         {
           "tiet": "7",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "Địa",
+          "gv": "Ánh"
         },
         {
           "tiet": "8",
@@ -4040,40 +4125,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "GDCD",
-          "gv": "Lic"
+          "mon": "Toán",
+          "gv": "Quảng"
         },
         {
           "tiet": "2",
+          "mon": "Toán",
+          "gv": "Quảng"
+        },
+        {
+          "tiet": "3",
           "mon": "Mĩ thuật",
           "gv": "Điệp"
         },
         {
-          "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "Phúc"
-        },
-        {
           "tiet": "4",
-          "mon": "Ng.ngữ",
-          "gv": "Phúc"
+          "mon": "Lí",
+          "gv": "D.Hường"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "HĐTN 3",
+          "gv": "Lan"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Quảng"
+          "mon": "Anh",
+          "gv": "Phúc"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Quảng"
+          "mon": "Anh",
+          "gv": "Phúc"
         },
         {
           "tiet": "8",
@@ -4086,44 +4171,44 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Quảng"
+          "mon": "Văn",
+          "gv": "Hiền V"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Quảng"
+          "mon": "Văn",
+          "gv": "Hiền V"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Anh",
+          "gv": "Phúc"
         },
         {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Anh",
+          "gv": "Phúc"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "C.nghệ",
-          "gv": "D.Hường"
+          "mon": "Hóa",
+          "gv": "Bảo H"
         },
         {
           "tiet": "6",
-          "mon": "C.nghệ",
-          "gv": "D.Hường"
+          "mon": "GDCD",
+          "gv": "Lic"
         },
         {
           "tiet": "7",
-          "mon": "Tin",
-          "gv": "Cường"
+          "mon": "GDTC",
+          "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "",
+          "mon": "GDTC",
           "gv": ""
         }
       ]
@@ -4132,13 +4217,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Sinh",
+          "gv": "Dung S"
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Toán",
+          "gv": "Quảng"
         },
         {
           "tiet": "3",
@@ -4147,25 +4232,30 @@ const data = {
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Quảng"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Phúc"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Phúc"
         },
         {
           "tiet": "7",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "C.nghệ",
+          "gv": "D.Hường"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -4185,39 +4275,39 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Lí",
-          "gv": "D.Hường"
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Toán",
+          "gv": "Thành"
         },
         {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Địa",
+          "gv": "Ánh"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Phúc"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Phúc"
+          "mon": "Tin",
+          "gv": "Cường"
         },
         {
           "tiet": "7",
-          "mon": "GDTC",
-          "gv": ""
+          "mon": "Hóa",
+          "gv": "Bảo H"
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -4226,40 +4316,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "C.nghệ",
-          "gv": "D.Hường"
+          "mon": "Toán",
+          "gv": "Thành"
         },
         {
           "tiet": "2",
-          "mon": "C.nghệ",
-          "gv": "D.Hường"
+          "mon": "Toán",
+          "gv": "Thành"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Phúc"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Phúc"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "C.nghệ",
+          "gv": "D.Hường"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Thành"
+          "mon": "Văn",
+          "gv": "Hiền V"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Thành"
+          "mon": "Văn",
+          "gv": "Hiền V"
         },
         {
           "tiet": "8",
@@ -4272,40 +4362,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Thành"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Thành"
-        },
-        {
-          "tiet": "3",
           "mon": "Mĩ thuật",
           "gv": "Điệp"
         },
         {
+          "tiet": "3",
+          "mon": "Văn",
+          "gv": "Hiền V"
+        },
+        {
           "tiet": "4",
-          "mon": "Tin",
-          "gv": "Cường"
+          "mon": "Văn",
+          "gv": "Hiền V"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Toán",
+          "gv": "Thành"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Toán",
+          "gv": "Thành"
         },
         {
           "tiet": "7",
-          "mon": "Hóa",
-          "gv": "Bảo H"
+          "mon": "HĐTN 3",
+          "gv": "Lan"
         },
         {
           "tiet": "8",
@@ -4318,13 +4408,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Hóa",
+          "gv": "Bảo H"
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Lí",
+          "gv": "D.Hường"
         },
         {
           "tiet": "3",
@@ -4340,22 +4430,22 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "HĐTN 3",
-          "gv": "Lan"
-        },
-        {
-          "tiet": "6",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
-        },
-        {
-          "tiet": "7",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Phúc"
         },
         {
+          "tiet": "6",
+          "mon": "Anh",
+          "gv": "Phúc"
+        },
+        {
+          "tiet": "7",
+          "mon": "GDTC",
+          "gv": ""
+        },
+        {
           "tiet": "8",
-          "mon": "",
+          "mon": "GDTC",
           "gv": ""
         }
       ]
@@ -4364,40 +4454,45 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Văn",
+          "gv": "Hiền V"
         },
         {
           "tiet": "2",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "Văn",
+          "gv": "Hiền V"
         },
         {
           "tiet": "3",
-          "mon": "GDCD",
-          "gv": "Lic"
+          "mon": "Anh",
+          "gv": "Phúc"
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Thành"
+          "mon": "Anh",
+          "gv": "Phúc"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Địa",
-          "gv": "Ánh"
-        },
-        {
-          "tiet": "6",
           "mon": "Sinh",
           "gv": "Dung S"
         },
         {
+          "tiet": "6",
+          "mon": "C.nghệ",
+          "gv": "D.Hường"
+        },
+        {
           "tiet": "7",
-          "mon": "Hóa",
-          "gv": "Bảo H"
+          "mon": "GDCD",
+          "gv": "Lic"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -4417,39 +4512,39 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Hóa",
-          "gv": "Tr.Anh"
+          "mon": "Văn",
+          "gv": "Thư"
         },
         {
           "tiet": "3",
-          "mon": "Sinh",
-          "gv": "Dung S"
+          "mon": "Văn",
+          "gv": "Thư"
         },
         {
           "tiet": "4",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "Hóa",
+          "gv": "Bảo H"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "C.nghệ",
+          "gv": "D.Hường"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Toán",
+          "gv": "Thắm"
         },
         {
           "tiet": "7",
-          "mon": "GDTC",
-          "gv": ""
+          "mon": "Toán",
+          "gv": "Thắm"
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -4458,40 +4553,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Thắm"
+          "mon": "Văn",
+          "gv": "Thư"
         },
         {
           "tiet": "2",
+          "mon": "Văn",
+          "gv": "Thư"
+        },
+        {
+          "tiet": "3",
           "mon": "Toán",
           "gv": "Thắm"
         },
         {
-          "tiet": "3",
-          "mon": "Địa",
-          "gv": "Ánh"
-        },
-        {
           "tiet": "4",
-          "mon": "Ng.ngữ",
-          "gv": "Tú"
+          "mon": "Toán",
+          "gv": "Thắm"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "HĐTN 3",
+          "gv": "Lan"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "7",
-          "mon": "HĐTN 3",
-          "gv": "Lan"
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         },
         {
           "tiet": "8",
@@ -4504,40 +4599,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Tin",
-          "gv": "Cường"
+          "mon": "Lí",
+          "gv": "D.Hường"
         },
         {
           "tiet": "2",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "GDCD",
+          "gv": "Đào"
         },
         {
           "tiet": "3",
-          "mon": "Hóa",
-          "gv": "Tr.Anh"
+          "mon": "Anh",
+          "gv": "Tú"
         },
         {
           "tiet": "4",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
+          "mon": "Anh",
+          "gv": "Tú"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Thư"
+          "mon": "C.nghệ",
+          "gv": "D.Hường"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Thắm"
+          "mon": "Sinh",
+          "gv": "Dung S"
         },
         {
           "tiet": "8",
@@ -4550,44 +4645,44 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "C.nghệ",
-          "gv": "D.Hường"
+          "mon": "Văn",
+          "gv": "Thư"
         },
         {
           "tiet": "2",
-          "mon": "C.nghệ",
-          "gv": "D.Hường"
+          "mon": "Văn",
+          "gv": "Thư"
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Thắm"
+          "mon": "Anh",
+          "gv": "Tú"
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Thắm"
+          "mon": "Anh",
+          "gv": "Tú"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Tú"
+          "mon": "Toán",
+          "gv": "Thắm"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Tú"
+          "mon": "Địa",
+          "gv": "Ánh"
         },
         {
           "tiet": "7",
-          "mon": "GDCD",
-          "gv": "Đào"
+          "mon": "GDTC",
+          "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "",
+          "mon": "GDTC",
           "gv": ""
         }
       ]
@@ -4596,40 +4691,45 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "Anh",
+          "gv": "Tú"
         },
         {
           "tiet": "2",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "Anh",
+          "gv": "Tú"
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Thắm"
+          "mon": "Tin",
+          "gv": "Cường"
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Thắm"
+          "mon": "Hóa",
+          "gv": "Bảo H"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Tú"
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Tú"
+          "mon": "Toán",
+          "gv": "Thắm"
         },
         {
           "tiet": "7",
-          "mon": "Lí",
-          "gv": "D.Hường"
+          "mon": "Toán",
+          "gv": "Thắm"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -4649,35 +4749,35 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
+          "mon": "Anh",
+          "gv": "Tú"
         },
         {
           "tiet": "3",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "Anh",
+          "gv": "Tú"
         },
         {
           "tiet": "4",
-          "mon": "Lí",
-          "gv": "D.Hường"
+          "mon": "Toán",
+          "gv": "Thành"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Sinh",
-          "gv": "Dung S"
+          "mon": "GDCD",
+          "gv": "Đào"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Tú"
+          "mon": "Hóa",
+          "gv": "Bảo H"
         },
         {
           "tiet": "7",
-          "mon": "Ng.ngữ",
-          "gv": "Tú"
+          "mon": "C.nghệ",
+          "gv": "D.Hường"
         },
         {
           "tiet": "8",
@@ -4690,13 +4790,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "GDCD",
-          "gv": "Đào"
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         },
         {
           "tiet": "2",
-          "mon": "Hóa",
-          "gv": "Tr.Anh"
+          "mon": "Lí",
+          "gv": "D.Hường"
         },
         {
           "tiet": "3",
@@ -4712,18 +4812,18 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Thành"
+          "mon": "Sinh",
+          "gv": "Dung S"
         },
         {
           "tiet": "6",
-          "mon": "C.nghệ",
-          "gv": "D.Hường"
+          "mon": "HĐTN 3",
+          "gv": "Lan"
         },
         {
           "tiet": "7",
-          "mon": "C.nghệ",
-          "gv": "D.Hường"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "8",
@@ -4746,30 +4846,30 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "Toán",
+          "gv": "Thành"
         },
         {
           "tiet": "4",
-          "mon": "Hóa",
-          "gv": "Tr.Anh"
+          "mon": "Toán",
+          "gv": "Thành"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Tú"
+          "mon": "C.nghệ",
+          "gv": "D.Hường"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Thành"
+          "mon": "Anh",
+          "gv": "Tú"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Thành"
+          "mon": "Anh",
+          "gv": "Tú"
         },
         {
           "tiet": "8",
@@ -4792,34 +4892,34 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "Tú"
+          "mon": "Văn",
+          "gv": "Hiền V"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
-          "gv": "Tú"
+          "mon": "Văn",
+          "gv": "Hiền V"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Tin",
-          "gv": "Cường"
+          "mon": "Địa",
+          "gv": "Ánh"
         },
         {
           "tiet": "6",
-          "mon": "HĐTN 3",
-          "gv": "Lan"
+          "mon": "Hóa",
+          "gv": "Bảo H"
         },
         {
           "tiet": "7",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "GDTC",
+          "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "",
+          "mon": "GDTC",
           "gv": ""
         }
       ]
@@ -4828,13 +4928,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Thành"
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "3",
@@ -4843,29 +4943,34 @@ const data = {
         },
         {
           "tiet": "4",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Toán",
+          "gv": "Thành"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Anh",
+          "gv": "Tú"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Anh",
+          "gv": "Tú"
         },
         {
           "tiet": "7",
-          "mon": "GDTC",
+          "mon": "Tin",
+          "gv": "Cường"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
           "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -4881,35 +4986,35 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "H.Anh"
+          "mon": "Mĩ thuật",
+          "gv": "Điệp"
         },
         {
           "tiet": "3",
-          "mon": "Hóa",
-          "gv": "Tr.Anh"
+          "mon": "Lí",
+          "gv": "D.Hường"
         },
         {
           "tiet": "4",
-          "mon": "Nhạc",
-          "gv": "Tài"
+          "mon": "Toán",
+          "gv": "H.Anh"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Ý"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Ý"
         },
         {
           "tiet": "7",
-          "mon": "Sinh",
-          "gv": "Dung S"
+          "mon": "HĐTN 3",
+          "gv": "Lan"
         },
         {
           "tiet": "8",
@@ -4932,30 +5037,30 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "C.nghệ",
-          "gv": "D.Hường"
+          "mon": "Hóa",
+          "gv": "Bảo H"
         },
         {
           "tiet": "4",
-          "mon": "C.nghệ",
-          "gv": "D.Hường"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Nhạc",
+          "gv": "Tài"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Anh",
+          "gv": "Ý"
         },
         {
           "tiet": "7",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Anh",
+          "gv": "Ý"
         },
         {
           "tiet": "8",
@@ -4968,40 +5073,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "H.Anh"
+          "mon": "Tin",
+          "gv": "Cường"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "H.Anh"
+          "mon": "Anh",
+          "gv": "Ý"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Anh",
+          "gv": "Ý"
         },
         {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "Hiền V"
+          "mon": "Địa",
+          "gv": "Ánh"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Ý"
+          "mon": "Văn",
+          "gv": "Hiền V"
         },
         {
           "tiet": "6",
-          "mon": "HĐTN 3",
-          "gv": "Lan"
+          "mon": "Văn",
+          "gv": "Hiền V"
         },
         {
           "tiet": "7",
-          "mon": "GDCD",
-          "gv": "Lic"
+          "mon": "C.nghệ",
+          "gv": "D.Hường"
         },
         {
           "tiet": "8",
@@ -5014,44 +5119,44 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Mĩ thuật",
-          "gv": "Điệp"
+          "mon": "Sinh",
+          "gv": "Dung S"
         },
         {
           "tiet": "2",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "GDCD",
+          "gv": "Lic"
         },
         {
           "tiet": "3",
-          "mon": "Lí",
-          "gv": "D.Hường"
+          "mon": "Toán",
+          "gv": "H.Anh"
         },
         {
           "tiet": "4",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "Toán",
+          "gv": "H.Anh"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Ý"
+          "mon": "Văn",
+          "gv": "Hiền V"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Ý"
+          "mon": "Văn",
+          "gv": "Hiền V"
         },
         {
           "tiet": "7",
-          "mon": "Hóa",
-          "gv": "Tr.Anh"
+          "mon": "GDTC",
+          "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "",
+          "mon": "GDTC",
           "gv": ""
         }
       ]
@@ -5082,22 +5187,27 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Tin",
-          "gv": "Cường"
+          "mon": "C.nghệ",
+          "gv": "D.Hường"
         },
         {
           "tiet": "6",
-          "mon": "Địa",
-          "gv": "Ánh"
+          "mon": "Hóa",
+          "gv": "Bảo H"
         },
         {
           "tiet": "7",
-          "mon": "GDTC",
+          "mon": "Sử",
+          "gv": "A.Hoàn"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
           "gv": ""
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -5113,13 +5223,13 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Thía"
+          "mon": "Toán",
+          "gv": "Ngọc"
         },
         {
           "tiet": "3",
-          "mon": "Sử",
-          "gv": "Đào"
+          "mon": "Tin",
+          "gv": "Khánh T"
         },
         {
           "tiet": "4",
@@ -5130,23 +5240,23 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Khanh"
-        },
-        {
-          "tiet": "6",
           "mon": "Hóa",
           "gv": "L.Ngân"
         },
         {
+          "tiet": "6",
+          "mon": "Anh",
+          "gv": "Khanh"
+        },
+        {
           "tiet": "7",
-          "mon": "GDTC",
-          "gv": ""
+          "mon": "Anh",
+          "gv": "Khanh"
         },
         {
           "tiet": "8",
-          "mon": "GDQP",
-          "gv": "Lĩnh"
+          "mon": "HĐTN 3",
+          "gv": "M.Hải"
         }
       ]
     },
@@ -5159,100 +5269,8 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Tin",
-          "gv": "Khánh T"
-        },
-        {
-          "tiet": "3",
-          "mon": "TANN",
-          "gv": ""
-        },
-        {
-          "tiet": "4",
-          "mon": "",
-          "gv": ""
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "Văn",
-          "gv": "Thía"
-        },
-        {
-          "tiet": "6",
-          "mon": "Văn",
-          "gv": "Thía"
-        },
-        {
-          "tiet": "7",
-          "mon": "Hóa",
-          "gv": "L.Ngân"
-        },
-        {
-          "tiet": "8",
-          "mon": "Hóa",
-          "gv": "L.Ngân"
-        }
-      ]
-    },
-    "Thứ 4": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "Toán",
-          "gv": "Ngọc"
-        },
-        {
-          "tiet": "2",
-          "mon": "Toán",
-          "gv": "Ngọc"
-        },
-        {
-          "tiet": "3",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
-        },
-        {
-          "tiet": "4",
-          "mon": "",
-          "gv": ""
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "Văn",
-          "gv": "Thía"
-        },
-        {
-          "tiet": "6",
-          "mon": "Văn",
-          "gv": "Thía"
-        },
-        {
-          "tiet": "7",
-          "mon": "Hóa",
-          "gv": "L.Ngân"
-        },
-        {
-          "tiet": "8",
-          "mon": "Tin",
-          "gv": "Khánh T"
-        }
-      ]
-    },
-    "Thứ 5": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "Khanh"
-        },
-        {
-          "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Khanh"
+          "mon": "Sử",
+          "gv": "Đào"
         },
         {
           "tiet": "3",
@@ -5268,42 +5286,42 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Ngọc"
+          "mon": "Văn",
+          "gv": "Thía"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Ngọc"
+          "mon": "Văn",
+          "gv": "Thía"
         },
         {
           "tiet": "7",
-          "mon": "Lí",
-          "gv": "T.Ngân"
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
         },
         {
           "tiet": "8",
-          "mon": "Lí",
-          "gv": "T.Ngân"
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
         }
       ]
     },
-    "Thứ 6": {
+    "Thứ 4": {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "Khanh"
+          "mon": "Lí",
+          "gv": "T.Ngân"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Khanh"
+          "mon": "Lí",
+          "gv": "T.Ngân"
         },
         {
           "tiet": "3",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
+          "mon": "Tin",
+          "gv": "Khánh T"
         },
         {
           "tiet": "4",
@@ -5314,13 +5332,13 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Lí",
-          "gv": "T.Ngân"
+          "mon": "Văn",
+          "gv": "Thía"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Ngọc"
+          "mon": "Văn",
+          "gv": "Thía"
         },
         {
           "tiet": "7",
@@ -5329,8 +5347,105 @@ const data = {
         },
         {
           "tiet": "8",
-          "mon": "HĐTN 3",
-          "gv": "M.Hải"
+          "mon": "GDQP",
+          "gv": "Lĩnh"
+        }
+      ]
+    },
+    "Thứ 5": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Hóa",
+          "gv": "L.Ngân"
+        },
+        {
+          "tiet": "2",
+          "mon": "Hóa",
+          "gv": "L.Ngân"
+        },
+        {
+          "tiet": "3",
+          "mon": "Lí",
+          "gv": "T.Ngân"
+        },
+        {
+          "tiet": "4",
+          "mon": "",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Anh",
+          "gv": "Khanh"
+        },
+        {
+          "tiet": "6",
+          "mon": "Anh",
+          "gv": "Khanh"
+        },
+        {
+          "tiet": "7",
+          "mon": "Toán",
+          "gv": "Ngọc"
+        },
+        {
+          "tiet": "8",
+          "mon": "Toán",
+          "gv": "Ngọc"
+        }
+      ]
+    },
+    "Thứ 6": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Toán",
+          "gv": "Ngọc"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Ngọc"
+        },
+        {
+          "tiet": "3",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "4",
+          "mon": "",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Anh",
+          "gv": "Khanh"
+        },
+        {
+          "tiet": "6",
+          "mon": "Anh",
+          "gv": "Khanh"
+        },
+        {
+          "tiet": "7",
+          "mon": "Hóa",
+          "gv": "L.Ngân"
+        },
+        {
+          "tiet": "8",
+          "mon": "GDTC",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         }
       ]
     }
@@ -5345,39 +5460,39 @@ const data = {
         },
         {
           "tiet": "2",
+          "mon": "GDQP",
+          "gv": "Lĩnh"
+        },
+        {
+          "tiet": "3",
           "mon": "Lí",
           "gv": "V.Hoàn"
         },
         {
-          "tiet": "3",
-          "mon": "Toán",
-          "gv": "Trọng"
-        },
-        {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Trọng"
+          "mon": "Lí",
+          "gv": "V.Hoàn"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
+          "mon": "Văn",
+          "gv": "Thảo"
+        },
+        {
+          "tiet": "6",
           "mon": "Sinh",
           "gv": "Ng.Hải"
         },
         {
-          "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Khanh"
-        },
-        {
           "tiet": "7",
-          "mon": "GDTC",
-          "gv": ""
+          "mon": "Hóa",
+          "gv": "L.Ngân"
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -5386,13 +5501,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "Khanh"
+          "mon": "Lí",
+          "gv": "V.Hoàn"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Khanh"
+          "mon": "Lí",
+          "gv": "V.Hoàn"
         },
         {
           "tiet": "3",
@@ -5413,13 +5528,13 @@ const data = {
         },
         {
           "tiet": "6",
-          "mon": "GDQP",
-          "gv": "Lĩnh"
+          "mon": "Toán",
+          "gv": "Trọng"
         },
         {
           "tiet": "7",
-          "mon": "Sử",
-          "gv": "Đào"
+          "mon": "Toán",
+          "gv": "Trọng"
         },
         {
           "tiet": "8",
@@ -5432,35 +5547,35 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
+          "mon": "Anh",
+          "gv": "Khanh"
+        },
+        {
+          "tiet": "2",
+          "mon": "Anh",
+          "gv": "Khanh"
+        },
+        {
+          "tiet": "3",
           "mon": "Văn",
           "gv": "Thảo"
         },
         {
-          "tiet": "2",
-          "mon": "Hóa",
-          "gv": "L.Ngân"
-        },
-        {
-          "tiet": "3",
-          "mon": "TANN",
-          "gv": ""
-        },
-        {
           "tiet": "4",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
+          "mon": "Văn",
+          "gv": "Thảo"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Trọng"
+          "mon": "Sử",
+          "gv": "Đào"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Trọng"
+          "mon": "Sử",
+          "gv": "Đào"
         },
         {
           "tiet": "7",
@@ -5478,40 +5593,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Văn",
-          "gv": "Thảo"
+          "mon": "Tin",
+          "gv": "Khánh T"
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Thảo"
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Trọng"
+          "mon": "Anh",
+          "gv": "Khanh"
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Trọng"
+          "mon": "Anh",
+          "gv": "Khanh"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "HĐTN 3",
-          "gv": "M.Hải"
+          "mon": "Toán",
+          "gv": "Trọng"
         },
         {
           "tiet": "6",
-          "mon": "Lí",
-          "gv": "V.Hoàn"
+          "mon": "Toán",
+          "gv": "Trọng"
         },
         {
           "tiet": "7",
-          "mon": "Lí",
-          "gv": "V.Hoàn"
+          "mon": "HĐTN 3",
+          "gv": "M.Hải"
         },
         {
           "tiet": "8",
@@ -5524,40 +5639,45 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Hóa",
-          "gv": "L.Ngân"
+          "mon": "Toán",
+          "gv": "Trọng"
         },
         {
           "tiet": "2",
-          "mon": "Hóa",
-          "gv": "L.Ngân"
+          "mon": "Toán",
+          "gv": "Trọng"
         },
         {
           "tiet": "3",
-          "mon": "Tin",
-          "gv": "Khánh T"
+          "mon": "Anh",
+          "gv": "Khanh"
         },
         {
           "tiet": "4",
-          "mon": "Sử",
-          "gv": "Đào"
+          "mon": "Anh",
+          "gv": "Khanh"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Khanh"
+          "mon": "Hóa",
+          "gv": "L.Ngân"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Khanh"
+          "mon": "Hóa",
+          "gv": "L.Ngân"
         },
         {
           "tiet": "7",
-          "mon": "Lí",
-          "gv": "V.Hoàn"
+          "mon": "GDTC",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "GDTC",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -5577,35 +5697,35 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Hóa",
-          "gv": "L.Ngân"
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
         },
         {
           "tiet": "3",
-          "mon": "Lí",
-          "gv": "V.Hoàn"
+          "mon": "Toán",
+          "gv": "Trọng"
         },
         {
           "tiet": "4",
-          "mon": "Tin",
-          "gv": "Khánh T"
+          "mon": "Toán",
+          "gv": "Trọng"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Mạnh"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Trọng"
+          "mon": "Anh",
+          "gv": "Mạnh"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Trọng"
+          "mon": "Tin",
+          "gv": "Khánh T"
         },
         {
           "tiet": "8",
@@ -5618,30 +5738,30 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "Mạnh"
+          "mon": "Toán",
+          "gv": "Trọng"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Mạnh"
+          "mon": "Toán",
+          "gv": "Trọng"
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Trọng"
+          "mon": "Sinh",
+          "gv": "Ng.Hải"
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Trọng"
+          "mon": "Sử",
+          "gv": "Đào"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Trang V"
+          "mon": "HĐTN 3",
+          "gv": "M.Hải"
         },
         {
           "tiet": "6",
@@ -5650,8 +5770,8 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "HĐTN 3",
-          "gv": "M.Hải"
+          "mon": "Hóa",
+          "gv": "L.Ngân"
         },
         {
           "tiet": "8",
@@ -5664,30 +5784,30 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Anh",
+          "gv": "Mạnh"
         },
         {
           "tiet": "2",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
+          "mon": "Anh",
+          "gv": "Mạnh"
         },
         {
           "tiet": "3",
-          "mon": "Lí",
-          "gv": "V.Hoàn"
+          "mon": "Văn",
+          "gv": "Trang V"
         },
         {
           "tiet": "4",
-          "mon": "Lí",
-          "gv": "V.Hoàn"
+          "mon": "Văn",
+          "gv": "Trang V"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "GDQP",
-          "gv": "Lĩnh"
+          "mon": "Hóa",
+          "gv": "L.Ngân"
         },
         {
           "tiet": "6",
@@ -5696,8 +5816,8 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "Sử",
-          "gv": "Đào"
+          "mon": "GDQP",
+          "gv": "Lĩnh"
         },
         {
           "tiet": "8",
@@ -5710,23 +5830,69 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Hóa",
-          "gv": "L.Ngân"
+          "mon": "Lí",
+          "gv": "V.Hoàn"
         },
         {
           "tiet": "2",
+          "mon": "Lí",
+          "gv": "V.Hoàn"
+        },
+        {
+          "tiet": "3",
+          "mon": "Tin",
+          "gv": "Khánh T"
+        },
+        {
+          "tiet": "4",
+          "mon": "Sử",
+          "gv": "Đào"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
           "mon": "Hóa",
           "gv": "L.Ngân"
         },
         {
-          "tiet": "3",
+          "tiet": "6",
           "mon": "Văn",
           "gv": "Trang V"
         },
         {
-          "tiet": "4",
+          "tiet": "7",
           "mon": "Văn",
           "gv": "Trang V"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 6": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Anh",
+          "gv": "Mạnh"
+        },
+        {
+          "tiet": "2",
+          "mon": "Anh",
+          "gv": "Mạnh"
+        },
+        {
+          "tiet": "3",
+          "mon": "Toán",
+          "gv": "Trọng"
+        },
+        {
+          "tiet": "4",
+          "mon": "Toán",
+          "gv": "Trọng"
         }
       ],
       "Chiều": [
@@ -5737,8 +5903,8 @@ const data = {
         },
         {
           "tiet": "6",
-          "mon": "Sử",
-          "gv": "Đào"
+          "mon": "Lí",
+          "gv": "V.Hoàn"
         },
         {
           "tiet": "7",
@@ -5749,47 +5915,6 @@ const data = {
           "tiet": "8",
           "mon": "GDTC",
           "gv": ""
-        }
-      ]
-    },
-    "Thứ 6": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "Sinh",
-          "gv": "Ng.Hải"
-        },
-        {
-          "tiet": "2",
-          "mon": "Tin",
-          "gv": "Khánh T"
-        },
-        {
-          "tiet": "3",
-          "mon": "Toán",
-          "gv": "Trọng"
-        },
-        {
-          "tiet": "4",
-          "mon": "Toán",
-          "gv": "Trọng"
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Mạnh"
-        },
-        {
-          "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Mạnh"
-        },
-        {
-          "tiet": "7",
-          "mon": "Văn",
-          "gv": "Trang V"
         },
         {
           "tiet": "8",
@@ -5809,13 +5934,13 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Địa",
-          "gv": "Dung Đ"
+          "mon": "Văn",
+          "gv": "Thảo"
         },
         {
           "tiet": "3",
-          "mon": "Địa",
-          "gv": "Dung Đ"
+          "mon": "Văn",
+          "gv": "Thảo"
         },
         {
           "tiet": "4",
@@ -5826,23 +5951,23 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
+          "mon": "Toán",
+          "gv": "Tâm"
+        },
+        {
+          "tiet": "6",
+          "mon": "Toán",
+          "gv": "Tâm"
+        },
+        {
+          "tiet": "7",
           "mon": "Lí",
           "gv": "T.Ngân"
         },
         {
-          "tiet": "6",
-          "mon": "Tin",
-          "gv": "Khánh T"
-        },
-        {
-          "tiet": "7",
-          "mon": "Toán",
-          "gv": "Tâm"
-        },
-        {
           "tiet": "8",
-          "mon": "Toán",
-          "gv": "Tâm"
+          "mon": "Địa",
+          "gv": "Dung Đ"
         }
       ]
     },
@@ -5850,52 +5975,6 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "TANN",
-          "gv": ""
-        },
-        {
-          "tiet": "2",
-          "mon": "Văn",
-          "gv": "Thảo"
-        },
-        {
-          "tiet": "3",
-          "mon": "KTPL",
-          "gv": "Lic"
-        },
-        {
-          "tiet": "4",
-          "mon": "",
-          "gv": ""
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "Lí",
-          "gv": "T.Ngân"
-        },
-        {
-          "tiet": "6",
-          "mon": "Lí",
-          "gv": "T.Ngân"
-        },
-        {
-          "tiet": "7",
-          "mon": "GDTC",
-          "gv": ""
-        },
-        {
-          "tiet": "8",
-          "mon": "GDQP",
-          "gv": "Lĩnh"
-        }
-      ]
-    },
-    "Thứ 4": {
-      "Sáng": [
-        {
-          "tiet": "1",
           "mon": "Toán",
           "gv": "Tâm"
         },
@@ -5918,100 +5997,8 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Trâm"
-        },
-        {
-          "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Trâm"
-        },
-        {
-          "tiet": "7",
-          "mon": "Văn",
-          "gv": "Thảo"
-        },
-        {
-          "tiet": "8",
-          "mon": "Văn",
-          "gv": "Thảo"
-        }
-      ]
-    },
-    "Thứ 5": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "Trâm"
-        },
-        {
-          "tiet": "2",
           "mon": "Sử",
           "gv": "Đào"
-        },
-        {
-          "tiet": "3",
-          "mon": "Tin",
-          "gv": "Khánh T"
-        },
-        {
-          "tiet": "4",
-          "mon": "",
-          "gv": ""
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "Toán",
-          "gv": "Tâm"
-        },
-        {
-          "tiet": "6",
-          "mon": "Toán",
-          "gv": "Tâm"
-        },
-        {
-          "tiet": "7",
-          "mon": "Văn",
-          "gv": "Thảo"
-        },
-        {
-          "tiet": "8",
-          "mon": "Văn",
-          "gv": "Thảo"
-        }
-      ]
-    },
-    "Thứ 6": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "Trâm"
-        },
-        {
-          "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Trâm"
-        },
-        {
-          "tiet": "3",
-          "mon": "Sử",
-          "gv": "Đào"
-        },
-        {
-          "tiet": "4",
-          "mon": "",
-          "gv": ""
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "Toán",
-          "gv": "Tâm"
         },
         {
           "tiet": "6",
@@ -6025,8 +6012,151 @@ const data = {
         },
         {
           "tiet": "8",
+          "mon": "Lí",
+          "gv": "T.Ngân"
+        }
+      ]
+    },
+    "Thứ 4": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "GDQP",
+          "gv": "Lĩnh"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Tâm"
+        },
+        {
+          "tiet": "3",
           "mon": "KTPL",
           "gv": "Lic"
+        },
+        {
+          "tiet": "4",
+          "mon": "",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tin",
+          "gv": "Khánh T"
+        },
+        {
+          "tiet": "6",
+          "mon": "Anh",
+          "gv": "Trâm"
+        },
+        {
+          "tiet": "7",
+          "mon": "Anh",
+          "gv": "Trâm"
+        },
+        {
+          "tiet": "8",
+          "mon": "Địa",
+          "gv": "Dung Đ"
+        }
+      ]
+    },
+    "Thứ 5": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Toán",
+          "gv": "Tâm"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Tâm"
+        },
+        {
+          "tiet": "3",
+          "mon": "Sử",
+          "gv": "Đào"
+        },
+        {
+          "tiet": "4",
+          "mon": "",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Anh",
+          "gv": "Trâm"
+        },
+        {
+          "tiet": "6",
+          "mon": "Anh",
+          "gv": "Trâm"
+        },
+        {
+          "tiet": "7",
+          "mon": "Văn",
+          "gv": "Thảo"
+        },
+        {
+          "tiet": "8",
+          "mon": "Lí",
+          "gv": "T.Ngân"
+        }
+      ]
+    },
+    "Thứ 6": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Anh",
+          "gv": "Trâm"
+        },
+        {
+          "tiet": "2",
+          "mon": "Anh",
+          "gv": "Trâm"
+        },
+        {
+          "tiet": "3",
+          "mon": "KTPL",
+          "gv": "Lic"
+        },
+        {
+          "tiet": "4",
+          "mon": "",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Văn",
+          "gv": "Thảo"
+        },
+        {
+          "tiet": "6",
+          "mon": "Văn",
+          "gv": "Thảo"
+        },
+        {
+          "tiet": "7",
+          "mon": "Tin",
+          "gv": "Khánh T"
+        },
+        {
+          "tiet": "8",
+          "mon": "GDTC",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         }
       ]
     }
@@ -6041,39 +6171,39 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Trang V"
+          "mon": "Anh",
+          "gv": "Khanh"
         },
         {
           "tiet": "3",
-          "mon": "Lí",
-          "gv": "T.Ngân"
+          "mon": "Anh",
+          "gv": "Khanh"
         },
         {
           "tiet": "4",
-          "mon": "Địa",
-          "gv": "Dung Đ"
+          "mon": "Tin",
+          "gv": "Khánh T"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "Tâm"
+          "mon": "KTPL",
+          "gv": "Lic"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Tâm"
+          "mon": "Lí",
+          "gv": "T.Ngân"
         },
         {
           "tiet": "7",
-          "mon": "GDTC",
-          "gv": ""
+          "mon": "Địa",
+          "gv": "Dung Đ"
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -6082,30 +6212,122 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
+          "mon": "Sử",
+          "gv": "Đào"
+        },
+        {
+          "tiet": "2",
           "mon": "KTPL",
           "gv": "Lic"
         },
         {
-          "tiet": "2",
-          "mon": "TANN",
-          "gv": ""
-        },
-        {
           "tiet": "3",
-          "mon": "Sử",
-          "gv": "Đào"
+          "mon": "Toán",
+          "gv": "Tâm"
         },
         {
           "tiet": "4",
-          "mon": "Sử",
-          "gv": "Đào"
+          "mon": "Toán",
+          "gv": "Tâm"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
+          "mon": "Văn",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "6",
+          "mon": "Anh",
+          "gv": "Khanh"
+        },
+        {
+          "tiet": "7",
+          "mon": "Anh",
+          "gv": "Khanh"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 4": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Tin",
+          "gv": "Khánh T"
+        },
+        {
+          "tiet": "2",
+          "mon": "KTPL",
+          "gv": "Lic"
+        },
+        {
+          "tiet": "3",
           "mon": "Toán",
           "gv": "Tâm"
+        },
+        {
+          "tiet": "4",
+          "mon": "Toán",
+          "gv": "Tâm"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Văn",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "6",
+          "mon": "Văn",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "7",
+          "mon": "Sử",
+          "gv": "Đào"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 5": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Anh",
+          "gv": "Khanh"
+        },
+        {
+          "tiet": "2",
+          "mon": "Anh",
+          "gv": "Khanh"
+        },
+        {
+          "tiet": "3",
+          "mon": "Toán",
+          "gv": "Tâm"
+        },
+        {
+          "tiet": "4",
+          "mon": "GDQP",
+          "gv": "Lĩnh"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Địa",
+          "gv": "Dung Đ"
         },
         {
           "tiet": "6",
@@ -6124,104 +6346,12 @@ const data = {
         }
       ]
     },
-    "Thứ 4": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "Văn",
-          "gv": "Trang V"
-        },
-        {
-          "tiet": "2",
-          "mon": "Văn",
-          "gv": "Trang V"
-        },
-        {
-          "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "Khanh"
-        },
-        {
-          "tiet": "4",
-          "mon": "Ng.ngữ",
-          "gv": "Khanh"
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "Tin",
-          "gv": "Khánh T"
-        },
-        {
-          "tiet": "6",
-          "mon": "Lí",
-          "gv": "T.Ngân"
-        },
-        {
-          "tiet": "7",
-          "mon": "Lí",
-          "gv": "T.Ngân"
-        },
-        {
-          "tiet": "8",
-          "mon": "",
-          "gv": ""
-        }
-      ]
-    },
-    "Thứ 5": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "KTPL",
-          "gv": "Lic"
-        },
-        {
-          "tiet": "2",
-          "mon": "KTPL",
-          "gv": "Lic"
-        },
-        {
-          "tiet": "3",
-          "mon": "Toán",
-          "gv": "Tâm"
-        },
-        {
-          "tiet": "4",
-          "mon": "Toán",
-          "gv": "Tâm"
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Khanh"
-        },
-        {
-          "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Khanh"
-        },
-        {
-          "tiet": "7",
-          "mon": "GDQP",
-          "gv": "Lĩnh"
-        },
-        {
-          "tiet": "8",
-          "mon": "",
-          "gv": ""
-        }
-      ]
-    },
     "Thứ 6": {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Tin",
-          "gv": "Khánh T"
+          "mon": "Toán",
+          "gv": "Tâm"
         },
         {
           "tiet": "2",
@@ -6230,13 +6360,13 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Tâm"
+          "mon": "Lí",
+          "gv": "T.Ngân"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
-          "gv": "Khanh"
+          "mon": "Lí",
+          "gv": "T.Ngân"
         }
       ],
       "Chiều": [
@@ -6252,8 +6382,13 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "Địa",
-          "gv": "Dung Đ"
+          "mon": "GDTC",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "GDTC",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -6273,13 +6408,13 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Thảo"
+          "mon": "Hóa",
+          "gv": "L.Ngân"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "Hằng"
+          "mon": "Hóa",
+          "gv": "L.Ngân"
         },
         {
           "tiet": "4",
@@ -6290,8 +6425,8 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Hóa",
-          "gv": "L.Ngân"
+          "mon": "Toán",
+          "gv": "H.Anh"
         },
         {
           "tiet": "6",
@@ -6300,13 +6435,13 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "H.Anh"
+          "mon": "Anh",
+          "gv": "Hằng"
         },
         {
           "tiet": "8",
-          "mon": "Lí",
-          "gv": "T.Ngân"
+          "mon": "Anh",
+          "gv": "Hằng"
         }
       ]
     },
@@ -6314,13 +6449,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Hóa",
-          "gv": "L.Ngân"
+          "mon": "Văn",
+          "gv": "Thảo"
         },
         {
           "tiet": "2",
-          "mon": "Hóa",
-          "gv": "L.Ngân"
+          "mon": "Văn",
+          "gv": "Thảo"
         },
         {
           "tiet": "3",
@@ -6336,23 +6471,23 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Thảo"
+          "mon": "Lí",
+          "gv": "T.Ngân"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Thảo"
+          "mon": "Toán",
+          "gv": "H.Anh"
         },
         {
           "tiet": "7",
-          "mon": "Tin",
-          "gv": "Cường"
+          "mon": "Toán",
+          "gv": "H.Anh"
         },
         {
           "tiet": "8",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "HĐTN 3",
+          "gv": "M.Hải"
         }
       ]
     },
@@ -6360,104 +6495,12 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Lí",
-          "gv": "T.Ngân"
-        },
-        {
-          "tiet": "2",
-          "mon": "Lí",
-          "gv": "T.Ngân"
-        },
-        {
-          "tiet": "3",
-          "mon": "Sử",
-          "gv": "Quỳnh"
-        },
-        {
-          "tiet": "4",
-          "mon": "",
-          "gv": ""
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "HĐTN 3",
-          "gv": "M.Hải"
-        },
-        {
-          "tiet": "6",
-          "mon": "Sinh",
-          "gv": "Dung S"
-        },
-        {
-          "tiet": "7",
-          "mon": "Ng.ngữ",
-          "gv": "Hằng"
-        },
-        {
-          "tiet": "8",
-          "mon": "Ng.ngữ",
-          "gv": "Hằng"
-        }
-      ]
-    },
-    "Thứ 5": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "Toán",
-          "gv": "H.Anh"
-        },
-        {
-          "tiet": "2",
-          "mon": "Toán",
-          "gv": "H.Anh"
-        },
-        {
-          "tiet": "3",
-          "mon": "Hóa",
-          "gv": "L.Ngân"
-        },
-        {
-          "tiet": "4",
-          "mon": "",
-          "gv": ""
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "Văn",
-          "gv": "Thảo"
-        },
-        {
-          "tiet": "6",
-          "mon": "Văn",
-          "gv": "Thảo"
-        },
-        {
-          "tiet": "7",
-          "mon": "GDTC",
-          "gv": ""
-        },
-        {
-          "tiet": "8",
-          "mon": "GDQP",
-          "gv": "Lĩnh"
-        }
-      ]
-    },
-    "Thứ 6": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Hằng"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Hằng"
         },
         {
@@ -6474,13 +6517,105 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
+          "mon": "GDQP",
+          "gv": "Lĩnh"
+        },
+        {
+          "tiet": "6",
           "mon": "Sinh",
           "gv": "Dung S"
         },
         {
-          "tiet": "6",
+          "tiet": "7",
+          "mon": "Hóa",
+          "gv": "L.Ngân"
+        },
+        {
+          "tiet": "8",
+          "mon": "Hóa",
+          "gv": "L.Ngân"
+        }
+      ]
+    },
+    "Thứ 5": {
+      "Sáng": [
+        {
+          "tiet": "1",
           "mon": "Lí",
           "gv": "T.Ngân"
+        },
+        {
+          "tiet": "2",
+          "mon": "Lí",
+          "gv": "T.Ngân"
+        },
+        {
+          "tiet": "3",
+          "mon": "Sinh",
+          "gv": "Dung S"
+        },
+        {
+          "tiet": "4",
+          "mon": "",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Văn",
+          "gv": "Thảo"
+        },
+        {
+          "tiet": "6",
+          "mon": "Văn",
+          "gv": "Thảo"
+        },
+        {
+          "tiet": "7",
+          "mon": "Anh",
+          "gv": "Hằng"
+        },
+        {
+          "tiet": "8",
+          "mon": "Anh",
+          "gv": "Hằng"
+        }
+      ]
+    },
+    "Thứ 6": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Lí",
+          "gv": "T.Ngân"
+        },
+        {
+          "tiet": "2",
+          "mon": "Văn",
+          "gv": "Thảo"
+        },
+        {
+          "tiet": "3",
+          "mon": "Sử",
+          "gv": "Quỳnh"
+        },
+        {
+          "tiet": "4",
+          "mon": "",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tin",
+          "gv": "Cường"
+        },
+        {
+          "tiet": "6",
+          "mon": "Toán",
+          "gv": "H.Anh"
         },
         {
           "tiet": "7",
@@ -6489,8 +6624,13 @@ const data = {
         },
         {
           "tiet": "8",
-          "mon": "Toán",
-          "gv": "H.Anh"
+          "mon": "GDTC",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         }
       ]
     }
@@ -6505,13 +6645,13 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Hằng"
+          "mon": "Toán",
+          "gv": "H.Anh"
         },
         {
           "tiet": "3",
-          "mon": "Lí",
-          "gv": "T.Hường"
+          "mon": "Sinh",
+          "gv": "Dung S"
         },
         {
           "tiet": "4",
@@ -6522,18 +6662,18 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "GDQP",
-          "gv": "Lĩnh"
+          "mon": "Văn",
+          "gv": "Ân"
         },
         {
           "tiet": "6",
-          "mon": "Tin",
-          "gv": "Cường"
+          "mon": "Văn",
+          "gv": "Ân"
         },
         {
           "tiet": "7",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Tin",
+          "gv": "Cường"
         },
         {
           "tiet": "8",
@@ -6546,13 +6686,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Hóa",
-          "gv": "Hà H"
+          "mon": "Sinh",
+          "gv": "Dung S"
         },
         {
           "tiet": "2",
-          "mon": "Hóa",
-          "gv": "Hà H"
+          "mon": "Sử",
+          "gv": "Quỳnh"
         },
         {
           "tiet": "3",
@@ -6568,18 +6708,18 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Hằng"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Hằng"
         },
         {
           "tiet": "7",
-          "mon": "Sinh",
-          "gv": "Dung S"
+          "mon": "Tin",
+          "gv": "Cường"
         },
         {
           "tiet": "8",
@@ -6592,40 +6732,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Hóa",
+          "gv": "Hà H"
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Hóa",
+          "gv": "Hà H"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Hằng"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Hằng"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Sử",
-          "gv": "Quỳnh"
+          "mon": "Văn",
+          "gv": "Ân"
         },
         {
           "tiet": "6",
-          "mon": "Sử",
-          "gv": "Quỳnh"
+          "mon": "Toán",
+          "gv": "H.Anh"
         },
         {
           "tiet": "7",
-          "mon": "HĐTN 3",
-          "gv": "M.Hải"
+          "mon": "Toán",
+          "gv": "H.Anh"
         },
         {
           "tiet": "8",
@@ -6638,44 +6778,44 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Lí",
+          "gv": "T.Hường"
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Lí",
+          "gv": "T.Hường"
         },
         {
           "tiet": "3",
-          "mon": "Hóa",
-          "gv": "Hà H"
+          "mon": "Anh",
+          "gv": "Hằng"
         },
         {
           "tiet": "4",
-          "mon": "Hóa",
-          "gv": "Hà H"
+          "mon": "Anh",
+          "gv": "Hằng"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "H.Anh"
+          "mon": "HĐTN 3",
+          "gv": "M.Hải"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "H.Anh"
+          "mon": "Hóa",
+          "gv": "Hà H"
         },
         {
           "tiet": "7",
-          "mon": "GDTC",
-          "gv": ""
+          "mon": "Hóa",
+          "gv": "Hà H"
         },
         {
           "tiet": "8",
-          "mon": "GDTC",
+          "mon": "",
           "gv": ""
         }
       ]
@@ -6689,35 +6829,40 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Lí",
-          "gv": "T.Hường"
+          "mon": "Sử",
+          "gv": "Quỳnh"
         },
         {
           "tiet": "3",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "GDQP",
+          "gv": "Lĩnh"
         },
         {
           "tiet": "4",
-          "mon": "Tin",
-          "gv": "Cường"
+          "mon": "Toán",
+          "gv": "H.Anh"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Toán",
-          "gv": "H.Anh"
+          "mon": "Văn",
+          "gv": "Ân"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "H.Anh"
+          "mon": "Văn",
+          "gv": "Ân"
         },
         {
           "tiet": "7",
-          "mon": "Sinh",
-          "gv": "Dung S"
+          "mon": "GDTC",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "GDTC",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -6737,18 +6882,18 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Yến"
+          "mon": "Lí",
+          "gv": "T.Ngân"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Thảo"
+          "mon": "Anh",
+          "gv": "Yến"
         },
         {
           "tiet": "4",
-          "mon": "Lí",
-          "gv": "T.Ngân"
+          "mon": "Anh",
+          "gv": "Yến"
         }
       ],
       "Chiều": [
@@ -6759,8 +6904,100 @@ const data = {
         },
         {
           "tiet": "6",
+          "mon": "HĐTN 3",
+          "gv": "M.Hải"
+        },
+        {
+          "tiet": "7",
+          "mon": "Văn",
+          "gv": "Thảo"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 3": {
+      "Sáng": [
+        {
+          "tiet": "1",
           "mon": "Sử",
           "gv": "Quỳnh"
+        },
+        {
+          "tiet": "2",
+          "mon": "Hóa",
+          "gv": "Hà H"
+        },
+        {
+          "tiet": "3",
+          "mon": "Toán",
+          "gv": "Trọng"
+        },
+        {
+          "tiet": "4",
+          "mon": "Toán",
+          "gv": "Trọng"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Anh",
+          "gv": "Yến"
+        },
+        {
+          "tiet": "6",
+          "mon": "Anh",
+          "gv": "Yến"
+        },
+        {
+          "tiet": "7",
+          "mon": "Sinh",
+          "gv": "Dung S"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 4": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Anh",
+          "gv": "Yến"
+        },
+        {
+          "tiet": "2",
+          "mon": "Anh",
+          "gv": "Yến"
+        },
+        {
+          "tiet": "3",
+          "mon": "Sinh",
+          "gv": "Dung S"
+        },
+        {
+          "tiet": "4",
+          "mon": "Lí",
+          "gv": "T.Ngân"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Toán",
+          "gv": "Trọng"
+        },
+        {
+          "tiet": "6",
+          "mon": "Toán",
+          "gv": "Trọng"
         },
         {
           "tiet": "7",
@@ -6774,85 +7011,39 @@ const data = {
         }
       ]
     },
-    "Thứ 3": {
+    "Thứ 5": {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Trọng"
+          "mon": "Hóa",
+          "gv": "Hà H"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Trọng"
+          "mon": "Hóa",
+          "gv": "Hà H"
         },
         {
           "tiet": "3",
-          "mon": "Lí",
-          "gv": "T.Ngân"
+          "mon": "Văn",
+          "gv": "Thảo"
         },
         {
           "tiet": "4",
-          "mon": "Lí",
-          "gv": "T.Ngân"
+          "mon": "Văn",
+          "gv": "Thảo"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "HĐTN 3",
-          "gv": "M.Hải"
-        },
-        {
-          "tiet": "6",
-          "mon": "TANN",
-          "gv": ""
-        },
-        {
-          "tiet": "7",
-          "mon": "Hóa",
-          "gv": "Hà H"
-        },
-        {
-          "tiet": "8",
-          "mon": "",
-          "gv": ""
-        }
-      ]
-    },
-    "Thứ 4": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "Ng.ngữ",
-          "gv": "Yến"
-        },
-        {
-          "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Yến"
-        },
-        {
-          "tiet": "3",
-          "mon": "Hóa",
-          "gv": "Hà H"
-        },
-        {
-          "tiet": "4",
           "mon": "Lí",
           "gv": "T.Ngân"
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "Văn",
-          "gv": "Thảo"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Thảo"
+          "mon": "Lí",
+          "gv": "T.Ngân"
         },
         {
           "tiet": "7",
@@ -6866,17 +7057,17 @@ const data = {
         }
       ]
     },
-    "Thứ 5": {
+    "Thứ 6": {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Trọng"
+          "mon": "Tin",
+          "gv": "Cường"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Trọng"
+          "mon": "Hóa",
+          "gv": "Hà H"
         },
         {
           "tiet": "3",
@@ -6892,13 +7083,13 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Hóa",
-          "gv": "Hà H"
+          "mon": "Toán",
+          "gv": "Trọng"
         },
         {
           "tiet": "6",
-          "mon": "Hóa",
-          "gv": "Hà H"
+          "mon": "Toán",
+          "gv": "Trọng"
         },
         {
           "tiet": "7",
@@ -6909,47 +7100,6 @@ const data = {
           "tiet": "8",
           "mon": "GDTC",
           "gv": ""
-        }
-      ]
-    },
-    "Thứ 6": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "Toán",
-          "gv": "Trọng"
-        },
-        {
-          "tiet": "2",
-          "mon": "Toán",
-          "gv": "Trọng"
-        },
-        {
-          "tiet": "3",
-          "mon": "Sinh",
-          "gv": "Dung S"
-        },
-        {
-          "tiet": "4",
-          "mon": "Sinh",
-          "gv": "Dung S"
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Yến"
-        },
-        {
-          "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Yến"
-        },
-        {
-          "tiet": "7",
-          "mon": "Tin",
-          "gv": "Cường"
         },
         {
           "tiet": "8",
@@ -6969,35 +7119,35 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Sinh",
+          "gv": "Dung S"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "Trâm"
+          "mon": "Toán",
+          "gv": "Ngọc"
         },
         {
           "tiet": "4",
-          "mon": "Sinh",
-          "gv": "Dung S"
+          "mon": "Toán",
+          "gv": "Ngọc"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Tin",
-          "gv": "Cường"
+          "mon": "Lí",
+          "gv": "T.Ngân"
         },
         {
           "tiet": "6",
-          "mon": "Lí",
-          "gv": "T.Ngân"
+          "mon": "Sử",
+          "gv": "Quỳnh"
         },
         {
           "tiet": "7",
-          "mon": "Lí",
-          "gv": "T.Ngân"
+          "mon": "HĐTN 3",
+          "gv": "M.Hải"
         },
         {
           "tiet": "8",
@@ -7010,40 +7160,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Sử",
-          "gv": "Quỳnh"
+          "mon": "Hóa",
+          "gv": "Hà H"
         },
         {
           "tiet": "2",
+          "mon": "Sinh",
+          "gv": "Dung S"
+        },
+        {
+          "tiet": "3",
           "mon": "Lí",
           "gv": "T.Ngân"
         },
         {
-          "tiet": "3",
-          "mon": "Văn",
-          "gv": "Ân"
-        },
-        {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "Ân"
+          "mon": "Lí",
+          "gv": "T.Ngân"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Hóa",
-          "gv": "Hà H"
+          "mon": "GDQP",
+          "gv": "Lĩnh"
         },
         {
           "tiet": "6",
-          "mon": "Hóa",
-          "gv": "Hà H"
+          "mon": "Anh",
+          "gv": "Trâm"
         },
         {
           "tiet": "7",
-          "mon": "GDQP",
-          "gv": "Lĩnh"
+          "mon": "Anh",
+          "gv": "Trâm"
         },
         {
           "tiet": "8",
@@ -7056,40 +7206,40 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Hóa",
-          "gv": "Hà H"
+          "mon": "Toán",
+          "gv": "Ngọc"
         },
         {
           "tiet": "2",
-          "mon": "Sử",
-          "gv": "Quỳnh"
+          "mon": "Toán",
+          "gv": "Ngọc"
         },
         {
           "tiet": "3",
-          "mon": "Tin",
-          "gv": "Cường"
+          "mon": "Anh",
+          "gv": "Trâm"
         },
         {
           "tiet": "4",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Anh",
+          "gv": "Trâm"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Lí",
-          "gv": "T.Ngân"
+          "mon": "Tin",
+          "gv": "Cường"
         },
         {
           "tiet": "6",
-          "mon": "Toán",
-          "gv": "Ngọc"
+          "mon": "Văn",
+          "gv": "Ân"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Ngọc"
+          "mon": "Văn",
+          "gv": "Ân"
         },
         {
           "tiet": "8",
@@ -7102,35 +7252,81 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Sinh",
-          "gv": "Dung S"
+          "mon": "Anh",
+          "gv": "Trâm"
         },
         {
           "tiet": "2",
+          "mon": "Anh",
+          "gv": "Trâm"
+        },
+        {
+          "tiet": "3",
           "mon": "Hóa",
           "gv": "Hà H"
         },
         {
-          "tiet": "3",
-          "mon": "Toán",
-          "gv": "Ngọc"
-        },
-        {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Ngọc"
+          "mon": "Hóa",
+          "gv": "Hà H"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Trâm"
+          "mon": "Sử",
+          "gv": "Quỳnh"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Trâm"
+          "mon": "Văn",
+          "gv": "Ân"
+        },
+        {
+          "tiet": "7",
+          "mon": "Văn",
+          "gv": "Ân"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 6": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Hóa",
+          "gv": "Hà H"
+        },
+        {
+          "tiet": "2",
+          "mon": "Lí",
+          "gv": "T.Ngân"
+        },
+        {
+          "tiet": "3",
+          "mon": "Văn",
+          "gv": "Ân"
+        },
+        {
+          "tiet": "4",
+          "mon": "Tin",
+          "gv": "Cường"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Toán",
+          "gv": "Ngọc"
+        },
+        {
+          "tiet": "6",
+          "mon": "Toán",
+          "gv": "Ngọc"
         },
         {
           "tiet": "7",
@@ -7141,47 +7337,6 @@ const data = {
           "tiet": "8",
           "mon": "GDTC",
           "gv": ""
-        }
-      ]
-    },
-    "Thứ 6": {
-      "Sáng": [
-        {
-          "tiet": "1",
-          "mon": "Toán",
-          "gv": "Ngọc"
-        },
-        {
-          "tiet": "2",
-          "mon": "Toán",
-          "gv": "Ngọc"
-        },
-        {
-          "tiet": "3",
-          "mon": "Văn",
-          "gv": "Ân"
-        },
-        {
-          "tiet": "4",
-          "mon": "Văn",
-          "gv": "Ân"
-        }
-      ],
-      "Chiều": [
-        {
-          "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Trâm"
-        },
-        {
-          "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Trâm"
-        },
-        {
-          "tiet": "7",
-          "mon": "HĐTN 3",
-          "gv": "M.Hải"
         },
         {
           "tiet": "8",
@@ -7206,30 +7361,30 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "Toán",
-          "gv": "Ngọc"
+          "mon": "Anh",
+          "gv": "Trâm"
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Ngọc"
+          "mon": "Anh",
+          "gv": "Trâm"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Văn",
-          "gv": "Thảo"
+          "mon": "HĐTN 3",
+          "gv": "M.Hải"
         },
         {
           "tiet": "6",
-          "mon": "Văn",
-          "gv": "Thảo"
+          "mon": "Toán",
+          "gv": "Ngọc"
         },
         {
           "tiet": "7",
-          "mon": "GDQP",
-          "gv": "Lĩnh"
+          "mon": "Toán",
+          "gv": "Ngọc"
         },
         {
           "tiet": "8",
@@ -7242,23 +7397,23 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Văn",
-          "gv": "Thảo"
+          "mon": "KTPL",
+          "gv": "Lic"
         },
         {
           "tiet": "2",
-          "mon": "Sử",
-          "gv": "Quỳnh"
+          "mon": "Anh",
+          "gv": "Trâm"
         },
         {
           "tiet": "3",
-          "mon": "Địa",
-          "gv": "Dung Đ"
+          "mon": "Anh",
+          "gv": "Trâm"
         },
         {
           "tiet": "4",
-          "mon": "Địa",
-          "gv": "Dung Đ"
+          "mon": "Sử",
+          "gv": "Quỳnh"
         }
       ],
       "Chiều": [
@@ -7269,13 +7424,13 @@ const data = {
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Trâm"
+          "mon": "Toán",
+          "gv": "Ngọc"
         },
         {
           "tiet": "7",
-          "mon": "Ng.ngữ",
-          "gv": "Trâm"
+          "mon": "Toán",
+          "gv": "Ngọc"
         },
         {
           "tiet": "8",
@@ -7288,23 +7443,23 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Sử",
-          "gv": "Quỳnh"
+          "mon": "Văn",
+          "gv": "Thảo"
         },
         {
           "tiet": "2",
-          "mon": "KTPL",
-          "gv": "Lic"
+          "mon": "Văn",
+          "gv": "Thảo"
         },
         {
           "tiet": "3",
-          "mon": "Văn",
-          "gv": "Thảo"
+          "mon": "Lí",
+          "gv": "T.Hường"
         },
         {
           "tiet": "4",
-          "mon": "Văn",
-          "gv": "Thảo"
+          "mon": "Lí",
+          "gv": "T.Hường"
         }
       ],
       "Chiều": [
@@ -7315,13 +7470,13 @@ const data = {
         },
         {
           "tiet": "6",
-          "mon": "HĐTN 3",
-          "gv": "M.Hải"
+          "mon": "Toán",
+          "gv": "Ngọc"
         },
         {
           "tiet": "7",
-          "mon": "Ng.ngữ",
-          "gv": "Trâm"
+          "mon": "Địa",
+          "gv": "Dung Đ"
         },
         {
           "tiet": "8",
@@ -7334,35 +7489,35 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Ngọc"
+          "mon": "Văn",
+          "gv": "Thảo"
         },
         {
           "tiet": "2",
-          "mon": "Toán",
-          "gv": "Ngọc"
+          "mon": "Văn",
+          "gv": "Thảo"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Trâm"
         },
         {
           "tiet": "4",
-          "mon": "Ng.ngữ",
+          "mon": "Anh",
           "gv": "Trâm"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Lí",
-          "gv": "T.Hường"
+          "mon": "KTPL",
+          "gv": "Lic"
         },
         {
           "tiet": "6",
-          "mon": "Lí",
-          "gv": "T.Hường"
+          "mon": "Sử",
+          "gv": "Quỳnh"
         },
         {
           "tiet": "7",
@@ -7380,13 +7535,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Tin",
-          "gv": "Cường"
+          "mon": "KTPL",
+          "gv": "Lic"
         },
         {
           "tiet": "2",
-          "mon": "TANN",
-          "gv": ""
+          "mon": "Lí",
+          "gv": "T.Hường"
         },
         {
           "tiet": "3",
@@ -7395,25 +7550,30 @@ const data = {
         },
         {
           "tiet": "4",
-          "mon": "Toán",
-          "gv": "Ngọc"
+          "mon": "GDQP",
+          "gv": "Lĩnh"
         }
       ],
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Lí",
-          "gv": "T.Hường"
+          "mon": "Địa",
+          "gv": "Dung Đ"
         },
         {
           "tiet": "6",
-          "mon": "KTPL",
-          "gv": "Lic"
+          "mon": "Tin",
+          "gv": "Cường"
         },
         {
           "tiet": "7",
-          "mon": "KTPL",
-          "gv": "Lic"
+          "mon": "Văn",
+          "gv": "Thảo"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -7433,13 +7593,13 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "T.Việt",
-          "gv": "Khánh V"
+          "mon": "Địa",
+          "gv": "Dung Đ"
         },
         {
           "tiet": "3",
-          "mon": "T.Việt",
-          "gv": "Khánh V"
+          "mon": "Địa",
+          "gv": "Dung Đ"
         },
         {
           "tiet": "4",
@@ -7450,13 +7610,13 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Lí",
-          "gv": "D.Hường"
+          "mon": "T.Việt",
+          "gv": "Khánh V"
         },
         {
           "tiet": "6",
-          "mon": "Sinh",
-          "gv": "M.Hải"
+          "mon": "T.Việt",
+          "gv": "Khánh V"
         },
         {
           "tiet": "7",
@@ -7474,18 +7634,18 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Địa",
-          "gv": "Dung Đ"
+          "mon": "Tin",
+          "gv": "Vy"
         },
         {
           "tiet": "2",
           "mon": "T.Việt",
-          "gv": "Khánh V"
+          "gv": "Chi QS"
         },
         {
           "tiet": "3",
           "mon": "T.Việt",
-          "gv": "Khánh V"
+          "gv": "Chi QS"
         },
         {
           "tiet": "4",
@@ -7496,18 +7656,18 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Lí",
-          "gv": "D.Hường"
+          "mon": "T.Việt",
+          "gv": "Khánh V"
         },
         {
           "tiet": "6",
-          "mon": "Tin",
-          "gv": "Vy"
+          "mon": "Sử",
+          "gv": "Đào"
         },
         {
           "tiet": "7",
-          "mon": "Toán",
-          "gv": "Tâm"
+          "mon": "Hóa",
+          "gv": "Nhi"
         },
         {
           "tiet": "8",
@@ -7520,18 +7680,18 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "T.Việt",
-          "gv": "Khánh V"
+          "mon": "Sinh",
+          "gv": "M.Hải"
         },
         {
           "tiet": "2",
-          "mon": "T.Việt",
-          "gv": "Khánh V"
+          "mon": "Anh",
+          "gv": "Phúc"
         },
         {
           "tiet": "3",
-          "mon": "T.Việt",
-          "gv": "Khánh V"
+          "mon": "Lí",
+          "gv": "D.Hường"
         },
         {
           "tiet": "4",
@@ -7543,17 +7703,17 @@ const data = {
         {
           "tiet": "5",
           "mon": "T.Việt",
-          "gv": "Chi QS"
+          "gv": "Khánh V"
         },
         {
           "tiet": "6",
           "mon": "T.Việt",
-          "gv": "Chi QS"
+          "gv": "Khánh V"
         },
         {
           "tiet": "7",
-          "mon": "Tin",
-          "gv": "Vy"
+          "mon": "T.Việt",
+          "gv": "Khánh V"
         },
         {
           "tiet": "8",
@@ -7566,18 +7726,18 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Sử",
-          "gv": "Đào"
+          "mon": "Lí",
+          "gv": "D.Hường"
         },
         {
           "tiet": "2",
-          "mon": "Ng.ngữ",
-          "gv": "Phúc"
+          "mon": "Sinh",
+          "gv": "M.Hải"
         },
         {
           "tiet": "3",
-          "mon": "Ng.ngữ",
-          "gv": "Phúc"
+          "mon": "Tin",
+          "gv": "Vy"
         },
         {
           "tiet": "4",
@@ -7588,8 +7748,8 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Địa",
-          "gv": "Dung Đ"
+          "mon": "T.Việt",
+          "gv": "Khánh V"
         },
         {
           "tiet": "6",
@@ -7598,8 +7758,8 @@ const data = {
         },
         {
           "tiet": "7",
-          "mon": "T.Việt",
-          "gv": "Khánh V"
+          "mon": "Anh",
+          "gv": "Phúc"
         },
         {
           "tiet": "8",
@@ -7612,18 +7772,18 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Tâm"
+          "mon": "T.Việt",
+          "gv": "Khánh V"
         },
         {
           "tiet": "2",
-          "mon": "Sử",
-          "gv": "Đào"
+          "mon": "T.Việt",
+          "gv": "Khánh V"
         },
         {
           "tiet": "3",
-          "mon": "Sinh",
-          "gv": "M.Hải"
+          "mon": "T.Việt",
+          "gv": "Khánh V"
         },
         {
           "tiet": "4",
@@ -7634,18 +7794,23 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "T.Việt",
-          "gv": "Khánh V"
+          "mon": "Sử",
+          "gv": "Đào"
         },
         {
           "tiet": "6",
-          "mon": "T.Việt",
-          "gv": "Khánh V"
+          "mon": "Toán",
+          "gv": "Tâm"
         },
         {
           "tiet": "7",
-          "mon": "Hóa",
-          "gv": "Nhi"
+          "mon": "Toán",
+          "gv": "Tâm"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
@@ -7665,13 +7830,13 @@ const data = {
         },
         {
           "tiet": "2",
-          "mon": "T.Việt",
-          "gv": "H'Phương"
+          "mon": "Lí",
+          "gv": "D.Hường"
         },
         {
           "tiet": "3",
-          "mon": "T.Việt",
-          "gv": "H'Phương"
+          "mon": "Hóa",
+          "gv": "Nhi"
         },
         {
           "tiet": "4",
@@ -7683,17 +7848,17 @@ const data = {
         {
           "tiet": "5",
           "mon": "T.Việt",
-          "gv": "Chi QS"
+          "gv": "H'Phương"
         },
         {
           "tiet": "6",
           "mon": "T.Việt",
-          "gv": "Chi QS"
+          "gv": "H'Phương"
         },
         {
           "tiet": "7",
-          "mon": "Lí",
-          "gv": "D.Hường"
+          "mon": "T.Việt",
+          "gv": "H'Phương"
         },
         {
           "tiet": "8",
@@ -7706,13 +7871,13 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Hóa",
-          "gv": "Nhi"
+          "mon": "Lí",
+          "gv": "D.Hường"
         },
         {
           "tiet": "2",
-          "mon": "Địa",
-          "gv": "Dung Đ"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "3",
@@ -7729,12 +7894,12 @@ const data = {
         {
           "tiet": "5",
           "mon": "T.Việt",
-          "gv": "H'Phương"
+          "gv": "Chi QS"
         },
         {
           "tiet": "6",
           "mon": "T.Việt",
-          "gv": "H'Phương"
+          "gv": "Chi QS"
         },
         {
           "tiet": "7",
@@ -7752,18 +7917,18 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "T.Việt",
-          "gv": "H'Phương"
+          "mon": "Anh",
+          "gv": "Phúc"
         },
         {
           "tiet": "2",
-          "mon": "T.Việt",
-          "gv": "H'Phương"
+          "mon": "Sinh",
+          "gv": "M.Hải"
         },
         {
           "tiet": "3",
-          "mon": "T.Việt",
-          "gv": "H'Phương"
+          "mon": "Sử",
+          "gv": "A.Hoàn"
         },
         {
           "tiet": "4",
@@ -7774,18 +7939,18 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "Ng.ngữ",
-          "gv": "Phúc"
+          "mon": "T.Việt",
+          "gv": "H'Phương"
         },
         {
           "tiet": "6",
-          "mon": "Ng.ngữ",
-          "gv": "Phúc"
+          "mon": "T.Việt",
+          "gv": "H'Phương"
         },
         {
           "tiet": "7",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "T.Việt",
+          "gv": "H'Phương"
         },
         {
           "tiet": "8",
@@ -7798,18 +7963,18 @@ const data = {
       "Sáng": [
         {
           "tiet": "1",
-          "mon": "Toán",
-          "gv": "Tâm"
-        },
-        {
-          "tiet": "2",
           "mon": "Tin",
           "gv": "Vy"
         },
         {
+          "tiet": "2",
+          "mon": "T.Việt",
+          "gv": "H'Phương"
+        },
+        {
           "tiet": "3",
-          "mon": "Sinh",
-          "gv": "M.Hải"
+          "mon": "T.Việt",
+          "gv": "H'Phương"
         },
         {
           "tiet": "4",
@@ -7820,13 +7985,13 @@ const data = {
       "Chiều": [
         {
           "tiet": "5",
-          "mon": "T.Việt",
-          "gv": "H'Phương"
+          "mon": "Toán",
+          "gv": "Tâm"
         },
         {
           "tiet": "6",
-          "mon": "T.Việt",
-          "gv": "H'Phương"
+          "mon": "Toán",
+          "gv": "Tâm"
         },
         {
           "tiet": "7",
@@ -7854,8 +8019,8 @@ const data = {
         },
         {
           "tiet": "3",
-          "mon": "Sử",
-          "gv": "A.Hoàn"
+          "mon": "T.Việt",
+          "gv": "H'Phương"
         },
         {
           "tiet": "4",
@@ -7871,13 +8036,1203 @@ const data = {
         },
         {
           "tiet": "6",
-          "mon": "Lí",
-          "gv": "D.Hường"
+          "mon": "Địa",
+          "gv": "Dung Đ"
         },
         {
           "tiet": "7",
+          "mon": "Anh",
+          "gv": "Phúc"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    }
+  },
+  "12A1": {
+    "Thứ 2": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "HĐTN 2",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "2",
+          "mon": "Văn",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "3",
+          "mon": "Văn",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "4",
+          "mon": "Tự học",
+          "gv": "Trang V"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "7",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 3": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Văn",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "2",
+          "mon": "Văn",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "3",
           "mon": "Toán",
-          "gv": "Tâm"
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "4",
+          "mon": "Toán",
+          "gv": "Thắng T"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "7",
+          "mon": "VănLĐH",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "8",
+          "mon": "VănLĐH",
+          "gv": "Trang V"
+        }
+      ]
+    },
+    "Thứ 4": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "LíLĐH",
+          "gv": "T.Hường"
+        },
+        {
+          "tiet": "2",
+          "mon": "LíLĐH",
+          "gv": "T.Hường"
+        },
+        {
+          "tiet": "3",
+          "mon": "Toán",
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "4",
+          "mon": "Toán",
+          "gv": "Thắng T"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "7",
+          "mon": "ToánLĐH",
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "8",
+          "mon": "ToánLĐH",
+          "gv": "Thắng T"
+        }
+      ]
+    },
+    "Thứ 5": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Văn",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "2",
+          "mon": "Văn",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "3",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "4",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Toán",
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "6",
+          "mon": "Toán",
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "7",
+          "mon": "Tự học",
+          "gv": "Thư"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 6": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Toán",
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "3",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "4",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "AnhLĐH",
+          "gv": "Mạnh"
+        },
+        {
+          "tiet": "6",
+          "mon": "AnhLĐH",
+          "gv": "Mạnh"
+        },
+        {
+          "tiet": "7",
+          "mon": "Tự học",
+          "gv": "Mạnh"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    }
+  },
+  "12A2": {
+    "Thứ 2": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "HĐTN 2",
+          "gv": "Dung Đ"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "3",
+          "mon": "Toán",
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "4",
+          "mon": "Tự học",
+          "gv": "Thắng T"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "7",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 3": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Toán",
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "3",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "4",
+          "mon": "Văn",
+          "gv": "Thía"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "7",
+          "mon": "ToánLĐH",
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "8",
+          "mon": "ToánLĐH",
+          "gv": "Thắng T"
+        }
+      ]
+    },
+    "Thứ 4": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Toán",
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "3",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "4",
+          "mon": "Văn",
+          "gv": "Thía"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "7",
+          "mon": "Tự học",
+          "gv": "Hằng"
+        },
+        {
+          "tiet": "8",
+          "mon": "VănLĐH",
+          "gv": "Thía"
+        }
+      ]
+    },
+    "Thứ 5": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Toán",
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Thắng T"
+        },
+        {
+          "tiet": "3",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "4",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "AnhLĐH",
+          "gv": "Hằng"
+        },
+        {
+          "tiet": "6",
+          "mon": "AnhLĐH",
+          "gv": "Hằng"
+        },
+        {
+          "tiet": "7",
+          "mon": "Tự học",
+          "gv": "Mi"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 6": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "2",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "3",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "4",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "LíLĐH",
+          "gv": "T.Hường"
+        },
+        {
+          "tiet": "6",
+          "mon": "LíLĐH",
+          "gv": "T.Hường"
+        },
+        {
+          "tiet": "7",
+          "mon": "ĐịaLĐH",
+          "gv": "Dung Đ"
+        },
+        {
+          "tiet": "8",
+          "mon": "ĐịaLĐH",
+          "gv": "Dung Đ"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    }
+  },
+  "12A3": {
+    "Thứ 2": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "HĐTN 2",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "2",
+          "mon": "Tự học",
+          "gv": "V.Hoàn"
+        },
+        {
+          "tiet": "3",
+          "mon": "Toán",
+          "gv": "Bảo"
+        },
+        {
+          "tiet": "4",
+          "mon": "Toán",
+          "gv": "Bảo"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "7",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 3": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Toán",
+          "gv": "Bảo"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Bảo"
+        },
+        {
+          "tiet": "3",
+          "mon": "HóaLĐH",
+          "gv": "L.Ngân"
+        },
+        {
+          "tiet": "4",
+          "mon": "HóaLĐH",
+          "gv": "L.Ngân"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "7",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "8",
+          "mon": "Văn",
+          "gv": "Thía"
+        }
+      ]
+    },
+    "Thứ 4": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "2",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "3",
+          "mon": "Toán",
+          "gv": "Bảo"
+        },
+        {
+          "tiet": "4",
+          "mon": "Toán",
+          "gv": "Bảo"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "7",
+          "mon": "Tự học",
+          "gv": "Yến"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 5": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Toán",
+          "gv": "Bảo"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Bảo"
+        },
+        {
+          "tiet": "3",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "4",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "6",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "7",
+          "mon": "LíLĐH",
+          "gv": "V.Hoàn"
+        },
+        {
+          "tiet": "8",
+          "mon": "LíLĐH",
+          "gv": "V.Hoàn"
+        }
+      ]
+    },
+    "Thứ 6": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Toán",
+          "gv": "Bảo"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Bảo"
+        },
+        {
+          "tiet": "3",
+          "mon": "HóaLĐH",
+          "gv": "L.Ngân"
+        },
+        {
+          "tiet": "4",
+          "mon": "HóaLĐH",
+          "gv": "L.Ngân"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "AnhLĐH",
+          "gv": "Yến"
+        },
+        {
+          "tiet": "6",
+          "mon": "AnhLĐH",
+          "gv": "Yến"
+        },
+        {
+          "tiet": "7",
+          "mon": "Tự học",
+          "gv": "Yến"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    }
+  },
+  "12A4": {
+    "Thứ 2": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "HĐTN 2",
+          "gv": "V.Hoàn"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "3",
+          "mon": "Toán",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "4",
+          "mon": "Tự học",
+          "gv": "Nhật"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "7",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 3": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Toán",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "3",
+          "mon": "Văn",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "4",
+          "mon": "Văn",
+          "gv": "Trang V"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "7",
+          "mon": "Tự học",
+          "gv": "Hòa"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 4": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Văn",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "2",
+          "mon": "Văn",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "3",
+          "mon": "HóaLĐH",
+          "gv": "Hà H"
+        },
+        {
+          "tiet": "4",
+          "mon": "HóaLĐH",
+          "gv": "Hà H"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "7",
+          "mon": "ToánLĐH",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "8",
+          "mon": "ToánLĐH",
+          "gv": "Nhật"
+        }
+      ]
+    },
+    "Thứ 5": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Toán",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "3",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "4",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "AnhLĐH",
+          "gv": "Mạnh"
+        },
+        {
+          "tiet": "6",
+          "mon": "AnhLĐH",
+          "gv": "Mạnh"
+        },
+        {
+          "tiet": "7",
+          "mon": "Tự học",
+          "gv": "Mạnh"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 6": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Văn",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "2",
+          "mon": "Văn",
+          "gv": "Trang V"
+        },
+        {
+          "tiet": "3",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "4",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Toán",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "6",
+          "mon": "Toán",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "7",
+          "mon": "",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "LíLĐH",
+          "gv": "V.Hoàn"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    }
+  },
+  "12A5": {
+    "Thứ 2": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "HĐTN 2",
+          "gv": "Ng.Hải"
+        },
+        {
+          "tiet": "2",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "3",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "4",
+          "mon": "Tự học",
+          "gv": "Thía"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "7",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "8",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 3": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "2",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "3",
+          "mon": "Toán",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "4",
+          "mon": "Toán",
+          "gv": "Nhật"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "7",
+          "mon": "ToánLĐH",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "8",
+          "mon": "ToánLĐH",
+          "gv": "Nhật"
+        }
+      ]
+    },
+    "Thứ 4": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Toán",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "3",
+          "mon": "Tự học",
+          "gv": "Yến"
+        },
+        {
+          "tiet": "4",
+          "mon": "Tự học",
+          "gv": "Yến"
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "7",
+          "mon": "VănLĐH",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "8",
+          "mon": "VănLĐH",
+          "gv": "Thía"
+        }
+      ]
+    },
+    "Thứ 5": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "2",
+          "mon": "Văn",
+          "gv": "Thía"
+        },
+        {
+          "tiet": "3",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        },
+        {
+          "tiet": "4",
+          "mon": "Tự chọn 1",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Toán",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "6",
+          "mon": "Toán",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "7",
+          "mon": "Tự học",
+          "gv": "Khanh"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
+        }
+      ]
+    },
+    "Thứ 6": {
+      "Sáng": [
+        {
+          "tiet": "1",
+          "mon": "Toán",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "2",
+          "mon": "Toán",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "3",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        },
+        {
+          "tiet": "4",
+          "mon": "Tự chọn 2",
+          "gv": ""
+        }
+      ],
+      "Chiều": [
+        {
+          "tiet": "5",
+          "mon": "Tự học",
+          "gv": "Xuân"
+        },
+        {
+          "tiet": "6",
+          "mon": "Tự học",
+          "gv": "Khánh T"
+        },
+        {
+          "tiet": "7",
+          "mon": "Tự học",
+          "gv": "Nhật"
+        },
+        {
+          "tiet": "8",
+          "mon": "",
+          "gv": ""
         },
         {
           "tiet": "8",
